@@ -5,28 +5,26 @@ body {
 
 /* Containers */
 
-.container-wrapper {}
-
-.container-wrapper--red {
-    background-color: #f05f40;
-    color: white;
-}
-
-.alert-container {}
-
 .callout-container {
     height: 100vh;
-
     background: url('../images/landing_image.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
 
-    display: flex;
+
+.callout-container-about {
+    height: 100vh;
+    background: url('../images/About_edit.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+     display: flex;
     align-items: center;
     justify-content: center;
-
     position: relative;
 }
 
@@ -36,16 +34,18 @@ body {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, .5);
 }
 
-.content-container {
-    padding-top: 75px;
-    padding-bottom: 75px;
-}
+
+
+
+
+
 
 /* Navbar */
 
+/*Center Navbar Items */
 
 .navbar-nav {
     float:none;
@@ -54,28 +54,45 @@ body {
     text-align: center;
 }
 
-.navbar-nav > li {
+.navbar-nav > li  {
     display: inline-block;
     float:none;
-
-
 }
+
+
 .navbar {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.25);
+    border: 0;
+    min-height: 90px !important;
+}
+
+/*
+ .navbar-about {
     margin-bottom: 0;
     position: absolute;
     top:0;
     left: 0;
     width: 100%;
     z-index: 1;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(192,192,192,0.3);
     border: 0;
-    min-height: 80px !important;
+    min-height: 90px !important;
+
 }
+*/
+
+
 
 
 .navbar-default .navbar-collapse {
     border-color: transparent;
     padding-top: 20px;
+    
 }
 
 .navbar-default .navbar-toggle {
@@ -94,10 +111,7 @@ body {
 .navbar .navbar-brand {
     padding-left: 60px;
     padding-top: 20px;
-}
-
-.navbar .navbar-brand:hover {
-    color: white;
+    
 }
 
 .navbar-default .navbar-nav a {
@@ -113,25 +127,16 @@ body {
 
 .navbar-default .navbar-nav>li>a:focus,
 .navbar-default .navbar-nav>li>a:hover {
-    color: white;
+ color: grey;
 }
 
-.navbar-btn {
-    border: 0;
-    border-radius: 16px;
-    width: 100px;
-    background-color: #f05f40;
-    color: white;
+.jumbotron {
+    background-color: transparent;
 }
 
-.navbar-btn:hover {
-    background-color: #df4929;
-    border-color: #df4929;
+.jumbotron h1 {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
     color: white;
 }
-
-
-
-
-
-
