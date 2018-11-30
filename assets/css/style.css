@@ -3,7 +3,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+
+
 /* Containers */
+
 
 .callout-container {
     height: 100vh;
@@ -12,6 +15,10 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+      display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
 
 
@@ -22,7 +29,8 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-     display: flex;
+     
+    display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
@@ -47,6 +55,7 @@ body {
 
 /*Center Navbar Items */
 
+/*
 .navbar-nav {
     float:none;
     margin:0 auto;
@@ -58,7 +67,7 @@ body {
     display: inline-block;
     float:none;
 }
-
+*/
 
 .navbar {
     position: absolute;
@@ -71,28 +80,17 @@ body {
     min-height: 90px !important;
 }
 
-/*
+
  .navbar-about {
-    margin-bottom: 0;
-    position: absolute;
-    top:0;
-    left: 0;
-    width: 100%;
-    z-index: 1;
+    position: fixed;
     background-color: rgba(192,192,192,0.3);
-    border: 0;
-    min-height: 90px !important;
-
+    
 }
-*/
-
-
 
 
 .navbar-default .navbar-collapse {
     border-color: transparent;
     padding-top: 20px;
-    
 }
 
 .navbar-default .navbar-toggle {
@@ -111,7 +109,6 @@ body {
 .navbar .navbar-brand {
     padding-left: 60px;
     padding-top: 20px;
-    
 }
 
 .navbar-default .navbar-nav a {
@@ -130,13 +127,42 @@ body {
  color: grey;
 }
 
-.jumbotron {
-    background-color: transparent;
+
+
+
+
+
+/* code taken from https://bootstrapious.com/p/bootstrap-navbar#5-2-overflowing-content */
+
+@media (max-width: 888px) { 
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    
+    .navbar-collapse.collapse.in {
+        display: block!important;
+    }
+    
+}            
+
+/* End of code for nav collapse */
+
+.about {
+    padding-top: 20px;
+    padding-left: 20px;
 }
 
-.jumbotron h1 {
-    color: white;
-    font-weight: bold;
-    margin-bottom: 30px;
-    color: white;
+.about h1{
+    color:white;
+}
+
+.about p {
+color:white;
 }
