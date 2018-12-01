@@ -1,6 +1,8 @@
 
+
 body {
     font-family: 'Roboto', sans-serif;
+   
 }
 
 
@@ -15,7 +17,8 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-      display: flex;
+    
+    display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
@@ -23,17 +26,17 @@ body {
 
 
 .callout-container-about {
-    height: 100vh;
+    height: 100%; /* to fill full window with scrollbar */
     background: url('../images/About_edit.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-     
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
+    background-attachment: fixed;
 }
 
 .opaque-overlay {
@@ -83,7 +86,7 @@ body {
 
  .navbar-about {
     position: fixed;
-    background-color: rgba(192,192,192,0.3);
+    background-color: #5f3f08;
     
 }
 
@@ -155,14 +158,20 @@ body {
 /* End of code for nav collapse */
 
 .about {
-    padding-top: 20px;
+    padding-top: 60px;
     padding-left: 20px;
 }
 
-.about h1{
-    color:white;
+h1 {
+    color:#d83a15;
+    font-family: Abel; font-size: 44px; font-style: normal;  
+    font-weight:bold;
+    padding-bottom: 20px;
 }
 
-.about p {
-color:white;
+p {
+color:#F8F8F8;
+font-family: Abel; font-size: 18px; font-style: normal;
+font-weight:bold;
 }
+
