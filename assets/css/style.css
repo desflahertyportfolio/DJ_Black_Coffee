@@ -2,23 +2,38 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-   
 }
 
+.container-wrapper {
+    background-color:white;
+}
 
+.container-wrapper--blackcoffeetour {
+     height: 100vh;
+ background: url('../images/tourpic.jpg') no-repeat center ;
+     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+     display: block;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
 
 /* Containers */
 
 
 .callout-container {
     height: 100vh;
-    background: url('../images/landing_image.jpg') no-repeat center center fixed;
+    background: url('../images/landing_image.jpg') no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     
-    display: flex;
+    display: block;
     align-items: center;
     justify-content: center;
     position: relative;
@@ -32,12 +47,17 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    
+    
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
     background-attachment: fixed;
 }
+
+
+
 
 .opaque-overlay {
     position: absolute;
@@ -73,12 +93,12 @@ body {
 */
 
 .navbar {
-    position: absolute;
+    position: fixed;
     top:0;
     left: 0;
     width: 100%;
     z-index: 1;
-    background-color: rgba(0, 0, 0, 0.25);
+    background-color: #191817;
     border: 0;
     min-height: 90px !important;
 }
@@ -86,7 +106,7 @@ body {
 
  .navbar-about {
     position: fixed;
-    background-color: #5f3f08;
+    background-color: #191817;
     
 }
 
@@ -130,11 +150,6 @@ body {
  color: grey;
 }
 
-
-
-
-
-
 /* code taken from https://bootstrapious.com/p/bootstrap-navbar#5-2-overflowing-content */
 
 @media (max-width: 888px) { 
@@ -157,17 +172,27 @@ body {
 
 /* End of code for nav collapse */
 
+/*----------------ABOUT PAGE----------------------- */
+
 .about {
     padding-top: 60px;
     padding-left: 20px;
 }
 
 h1 {
-    color:#d83a15;
+    color:#5f3f08;
     font-family: Abel; font-size: 44px; font-style: normal;  
     font-weight:bold;
     padding-bottom: 20px;
 }
+
+h2 {
+    color:#989794;
+    font-family: Abel; font-size: 24px; font-style: normal;  
+    font-weight:bold;
+    padding-top: 20px;
+}
+
 
 p {
 color:#F8F8F8;
@@ -175,3 +200,42 @@ font-family: Abel; font-size: 18px; font-style: normal;
 font-weight:bold;
 }
 
+/*--------------Footer----------------------------------------------------------------*/
+
+
+footer {
+    background-color: #353434;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+}
+
+
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #e84610;
+}
+
+#footer-details {
+    margin: 20px;
+}
