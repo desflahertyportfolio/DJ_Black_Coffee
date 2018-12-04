@@ -11,9 +11,25 @@ body {
    
 }
 
+
+
 .container-wrapper--blackcoffeetour {
      height: 100vh;
      background: url('../images/tourpic.jpg') no-repeat center ;
+     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: block;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.container-wrapper--blackcoffeecontact {
+     height: 100vh;
+     background: url('../images/contact_rorange.png') no-repeat center ;
      -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -32,7 +48,7 @@ body {
 
 .mail  {
     margin-top: 0;
-    color:#F8F8F8;
+    color:#4e3317;
     font-family: Abel; font-size: 44px; font-style: normal;  
     font-weight:bold;
     padding-bottom: 15px;
@@ -40,7 +56,7 @@ body {
 
 .tour  {
     margin-top: 0;
-    color:#5f3f08;
+    color:#4e3317;
     font-family: Abel; font-size: 44px; font-style: normal;  
     font-weight:bold;
     padding-bottom: 15px;
@@ -51,12 +67,17 @@ body {
     padding-bottom: 55px;
 }
 
-
+.modal-content
+{
+    background-color: #98958f;
+    color: #F8F8F8;
+    
+}
 
 
 
 .tour-content {
-     color:#F8F8F8;
+    color:#F8F8F8;
     font-family: Abel; font-size: 24px; font-style: normal;
     font-weight:bold;
    
@@ -72,12 +93,15 @@ body {
      text-align: center;  
 }
 
-.btn--red {
-    color: white;
-    background-color: #f05f40;
-    border-color: #f05f40;
-
+.enquire-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
 }
+
 
 .callout-container {
     height: 100vh;
@@ -93,12 +117,7 @@ body {
     position: relative;
 }
 
-.book  {
-  
-    padding-top: 60px;
-    padding-left: 20px;
 
-}
 
 
 .callout-container-about {
@@ -247,7 +266,7 @@ body {
 }
 
 .about-heading {
-    color:#5f3f08;
+    color:#4e3317;
     font-family: Abel; font-size: 44px; font-style: normal;  
     font-weight:bold;
     padding-bottom: 20px;
@@ -260,6 +279,8 @@ body {
     font-weight:bold;
     padding-top: 20px;
 }
+
+
 
 
 .about p {
@@ -282,7 +303,9 @@ font-weight:bold;
 .btn--cta {
     font-weight: bold;
     border-radius: 23px;
-    width: 160px;
+    width: 180px;
+    text-align: center;
+   
 }
 
 .btn--red {
@@ -301,14 +324,17 @@ font-weight:bold;
 }
 
 
+
+
+
 /*--------------Footer----------------------------------------------------------------*/
 
 
-footer {
+.footer {
     background-color: #767474;
-    min-height: 120px;
+    max-height: 80px;
     margin: 0;
-    padding-top: 95px
+    padding-top: 100px
 }
 
 
