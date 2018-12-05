@@ -264,17 +264,26 @@ body {
 /*----------------ABOUT PAGE----------------------- */
 
 .about {
-    padding-top: 60px;
+    padding-top: 90px;
     padding-left: 20px;
+    
 }
 
 .about-heading {
+    padding-bottom: 20px;
+   margin-top: 0px;
+}
+
+
+
+.about-icon {
     color:#4e3317;
     font-family: Abel; font-size: 44px; font-style: normal;  
     font-weight:bold;
-    padding-bottom: 20px;
     text-align: center;
 }
+
+
 
 .about h2 {
     color:#989794;
@@ -376,7 +385,7 @@ font-weight:bold;
     line-height: 7px;
     text-align: center;
     color: #fafafa;
-    background: #8f8f8f;
+    background: #f05f40;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -384,7 +393,7 @@ font-weight:bold;
 }
 
 .social-links li a i:hover {
-    background: #e84610;
+    background: #8f8f8f;
 }
 
 
