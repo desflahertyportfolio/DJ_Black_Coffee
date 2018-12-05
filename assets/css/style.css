@@ -28,7 +28,7 @@ body {
 }
 
 .container-wrapper--blackcoffeecontact {
-    height: 100%; /* to fill full window with scrollbar */
+    height: 100%; 
     
      background: url('../images/contact_rorange.png') no-repeat center ;
      -webkit-background-size: cover;
@@ -46,6 +46,8 @@ body {
 .tour-header{
     text-align: center;
 }
+
+
 
 .mail  {
     margin-top: 0;
@@ -79,7 +81,7 @@ body {
 
 .tour-content {
     color:#F8F8F8;
-    font-family: Abel; font-size: 24px; font-style: normal;
+    font-family: Abel; font-size: 14px; font-style: normal;
     font-weight:bold;
    
 }
@@ -306,8 +308,15 @@ font-weight:bold;
     border-radius: 23px;
     width: 180px;
     text-align: center;
-   
+    
 }
+    
+.btn--grey {
+    background-color:#8f8f8f;
+}
+   
+  
+
 
 .btn--red {
     color: white;
@@ -330,26 +339,40 @@ font-weight:bold;
 
 /*--------------Footer----------------------------------------------------------------*/
 
-
-footer {
-    background-color: #767474;
-    min-height: 60px;
- 
-    margin-top:350px;
+#footer-details {
+    margin: 20px;
 }
 
+footer {
+    background-color: #4e3317;
+    min-height: 120px;
+    margin: 0;
+    
+}
+
+.social-header {
+    text-align: center;
+    padding-left: 20px;
+    padding-top: 50px;
+}
 
 
 .social-links {
     padding-bottom: 15px;
 }
 
+.social-text {
+    color:#F8F8F8;
+font-family: Abel; font-size: 18px; font-style: normal;
+font-weight:bold;
+}
+
 .social-links li a i {
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
+    width: 42px;
+    height: 42px;
+    padding: 18px 0;
     border-radius: 50%;
-    font-size: 13px;
+    font-size: 20px;
     line-height: 7px;
     text-align: center;
     color: #fafafa;
@@ -364,6 +387,4 @@ footer {
     background: #e84610;
 }
 
-#footer-details {
-    margin: 20px;
-}
+
