@@ -15,7 +15,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    display: block;
+    display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
@@ -30,7 +30,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    display: block;
+    display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
@@ -44,7 +44,7 @@ body {
     -o-background-size: cover;
     background-size: cover;
     
-    display: block;
+    display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
@@ -62,7 +62,8 @@ body {
 
 
 .content-container {
-    padding-top: 90px;
+ padding-top: 90px;
+    padding-bottom: 50px;
     
 }
 
@@ -105,12 +106,13 @@ body {
     color:#4e3317;
     font-family: Abel; font-size: 44px; font-style: normal;  
     font-weight:bold;
-    padding-bottom: 10px;
+     padding-bottom: 10px;
+     
 }
 
 .index-content {
     color:#F8F8F8;
-    font-family: Abel; font-size: 15px; font-style: normal;
+    font-family: Abel; font-size: 18px; font-style: normal;
     font-weight:bold;
    
 }
@@ -173,7 +175,8 @@ body {
 
 .navbar .navbar-brand {
     padding-left: 60px;
-    padding-top: 20px;
+    padding-top: 15px;
+    
 }
 
 .navbar-default .navbar-nav a {
@@ -292,38 +295,36 @@ font-weight:bold;
 
 footer {
     background-color: #4e3317;
-    min-height: 100px;
-    margin: 0;
+    min-height: 60px;
+   
+    bottom:0;
+    left: 0;
+    width: 100%;
     
 }
 
 .social-header {
-    text-align: center;
-    padding-left: 20px;
-    padding-top: 30px;
+    padding-top: 20px;
+    
 }
 
 
 .social-links {
-    padding-bottom: 15px;
+    padding-bottom: 2px;
+    float:right;
+    padding-right: 10px;
 }
 
 .social-text {
 color:#F8F8F8;
-font-family: Abel; font-size: 18px; font-style: normal;
+font-family: Abel; font-size: 14px; font-style: normal;
 font-weight:bold;
+float: left;
+padding-left: 10px;
 }
 
 .social-links li a i {
-    width: 42px;
-    height: 42px;
-    padding: 18px 0;
-    border-radius: 50%;
-    font-size: 20px;
-    line-height: 7px;
-    text-align: center;
     color: #fafafa;
-    background: #f05f40;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -331,7 +332,9 @@ font-weight:bold;
 }
 
 .social-links li a i:hover {
-    background: #8f8f8f;
+    color: #f05f40;
+    
 }
+
 
 
