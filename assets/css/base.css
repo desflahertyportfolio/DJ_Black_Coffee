@@ -16,11 +16,6 @@
 	padding: 0px;
 	white-space: nowrap;
 	overflow: hidden;
-	-webkit-transition: color 1s ease;
-	-moz-transition: color 1s ease;
-	-ms-transition: color 1s ease;
-	-o-transition: color 1s ease;
-	transition: color 1s ease;
 }
 
 
@@ -28,21 +23,19 @@
 .element:hover:after,
 .element:focus:after {
 	outline:0;
-	background-color:#FFF;
-	-webkit-transition:  all 1s ease; /* add delay if wanted */
-	   -moz-transition:  all 1s ease; /* add delay if wanted */
-	    -ms-transition:  all 1s ease; /* add delay if wanted */
-	     -o-transition:  all 1s ease; /* add delay if wanted */
-	        transition:  all 1s ease; /* add delay if wanted */
+	-webkit-transition:  all 1s ease; 
+	   -moz-transition:  all 1s ease; 
+	    -ms-transition:  all 1s ease; 
+	     -o-transition:  all 1s ease; 
+	        transition:  all 1s ease; 
 }
 
 .element:hover:before,
 .element:focus:before {
 	outline: 0;
-	background-color:#FFF;
-	-webkit-transition:  all 1s ease; /* add delay if wanted */
-	   -moz-transition:  all 1s ease; /* add delay if wanted */
-	    -ms-transition:  all 1s ease; /* add delay if wanted */
-	     -o-transition:  all 1s ease; /* add delay if wanted */
-	        transition:  all 1s ease; /* add delay if wanted */
+	-webkit-transition:  all 1s ease; 
+	   -moz-transition:  all 1s ease; 
+	    -ms-transition:  all 1s ease; 
+	     -o-transition:  all 1s ease; 
+	        transition:  all 1s ease; 
 }

@@ -142,6 +142,8 @@ body {
 /*--------------------- Navbar------------------------------------------*/
 
 
+
+
 .navbar {
     position: fixed;
     top:0;
@@ -151,7 +153,7 @@ body {
     background-color: #4e3317;
     border: 0;
     min-height: 90px !important;
-    
+    padding-right: 10px;
 }
 
 
@@ -179,21 +181,34 @@ body {
     
 }
 
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+
 .navbar-default .navbar-nav a {
     font-weight: bold;
 }
 
+
+
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:focus,
 .navbar-default .navbar-nav>.active>a:hover {
-    color: white;
+    color: #f05f40;
     background: transparent;
+  
 }
 
 .navbar-default .navbar-nav>li>a:focus,
 .navbar-default .navbar-nav>li>a:hover {
- color: grey;
+ color: white;
 }
+
+ 
+
+
+
+
 
 /* code taken from https://bootstrapious.com/p/bootstrap-navbar#5-2-overflowing-content 
 adjust navbar collapse before logo icon*/
@@ -310,9 +325,11 @@ footer {
 
 
 .social-links {
-    padding-bottom: 2px;
+    padding-bottom: 0px;
     float:right;
     padding-right: 10px;
+    
+    
 }
 
 .social-text {
@@ -321,19 +338,32 @@ font-family: Abel; font-size: 14px; font-style: normal;
 font-weight:bold;
 float: left;
 padding-left: 10px;
+
 }
 
 .social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 8px;
+    text-align: center;
     color: #fafafa;
+    border: 1px solid #CDCDCD;
+    background: transparent;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 }
 
+
+
+
 .social-links li a i:hover {
-    color: #f05f40;
-    
+    /*color: #f05f40;*/
+    background-color: #f05f40;
 }
 
 
