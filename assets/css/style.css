@@ -152,9 +152,10 @@ body {
     z-index: 1;
     background-color: #4e3317;
     border: 0;
-    min-height: 90px !important;
+    min-height: 90px;
     padding-right: 10px;
 }
+
 
 
 .navbar-default .navbar-collapse {
@@ -181,8 +182,11 @@ body {
     
 }
 
+
+
 .navbar-default .navbar-nav > li > a {
     color: white;
+    
 }
 
 .navbar-default .navbar-nav a {
@@ -194,10 +198,13 @@ body {
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:focus,
 .navbar-default .navbar-nav>.active>a:hover {
-    color: #f05f40;
-    background: transparent;
-  
+    background-color: transparent;
+   color:#FFF;
+   
 }
+
+
+
 
 .navbar-default .navbar-nav>li>a:focus,
 .navbar-default .navbar-nav>li>a:hover {
@@ -213,7 +220,7 @@ body {
 /* code taken from https://bootstrapious.com/p/bootstrap-navbar#5-2-overflowing-content 
 adjust navbar collapse before logo icon*/
 
-@media (max-width: 888px) { 
+@media (max-width: 900px) { 
     .navbar-header {
         float: none;
     }
@@ -263,7 +270,7 @@ font-weight:bold;
 .btn--cta {
     font-weight: bold;
     border-radius: 23px;
-    width: 180px;
+    width: 180px;-
     text-align: center;
     
 }
@@ -341,7 +348,7 @@ padding-left: 10px;
 
 }
 
-.social-links li a i {
+.social-links li  i {
     width: 32px;
     height: 32px;
     padding: 12px 0;
@@ -361,7 +368,7 @@ padding-left: 10px;
 
 
 
-.social-links li a i:hover {
+.social-links li  i:hover {
     /*color: #f05f40;*/
     background-color: #f05f40;
 }
