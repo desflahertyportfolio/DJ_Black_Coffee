@@ -13,20 +13,18 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/underline.css">  
-  
+    
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
 </head>
 
 <body>
-    <!-- Navigation -->
+    
      <!-- Bootstrap 3 Navigation -->
-     
     <nav class="navbar navbar-default" role="navigation">
         <div class="container-fluid">
             <div class="navbar-header">
-             <span class="navbar-brand pointer" 
+             <span class="navbar-brand pointer navbar-left" 
              onclick="location='index.html'">
                     <img src="../assets/images/logo_poster_edit.png" alt="Black Coffee Logo"></img>
                  </span>
@@ -52,47 +50,36 @@
                     <li class="underline" ><a href="gallery.html">GALLERY</a></li>
                     <li class="underline" ><a href="#tour">TOUR</a></li>
                     <li class="underline"><a href="#contact">CONTACT</a></li>
-                    
-                    <!--
-                    <li class=""><a href="https://www.instagram.com/realblackcoffee/?hl=en"><i class="fa fa-instagram"></i></a></li>
-                    <li class=""><a href="https://twitter.com/RealBlackCoffee?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fa fa-twitter"></i></a></li>
-                    <li class=""><a href="https://www.youtube.com/channel/UCmI4YE0l_s7T31_XCJiwlIg"><i class="fa fa-youtube"></i></a></li>
-                    <li class=""><a href="https://www.facebook.com/realblackcoffee"><i class="fa fa-facebook"></i></a></li>
-                    -->
-                    
                 </ul>
                 
-            <!-- https://stackoverflow.com/questions/22518099/bootstrap-menu-change-li-active-class-on-click-->
+            <!-- https://stackoverflow.com/questions/22518099/bootstrap-menu-change-li-active-class-on-click
+            change active status of navbar on click-->
    <script>
   $(".nav li").on("click", function() {
     $(".nav li").removeClass("active");
     $(this).addClass("active");
   });
    </script>
-        <!-- https://stackoverflow.com/questions/22518099/bootstrap-menu-change-li-active-class-on-click-->    
+        <!--end of script-->    
                 
             </div>
         </div>
     </nav>
 
-
-
- <!-- Transparent overlay to make landing page background darker -->
-
     <div class="container-fluid callout-container">
-        <div class="opaque-overlay">&nbsp;</div>
+     
 
  <!-- Enquire button for Modal form -->
         <div class="enquire-container ">
             <div>
-                <button class="btn btn-lg btn--cta btn--red" data-toggle='modal' data-target='#enquireModal'>Enquiry</button>
+                <button class="btn btn-lg btn-cta btn-red" data-toggle='modal' data-target='#enquireModal'>Enquiry</button>
             </div>
         </div>
     </div>
 
     <!--------------------- Tour Dates and tickets------------------------------------------->
 
-    <div class="container-wrapper--blackcoffeetour" id="tour">
+    <div class="container-wrapper-blackcoffeetour" id="tour">
         <div class="content-container">
             <section class="header">
                 <div class="row">
@@ -115,7 +102,7 @@
                                     Nuevo Mexico, Mexico
                                 </div>
                                 <div class="col-sm-3">
-                                    <a href="https://www.residentadvisor.net/events/1151372"><button type="button" class="btn btn--red">TICKETS</button></a>
+                                    <a href="https://www.residentadvisor.net/events/1151372"><button class="btn btn-red">TICKETS</button></a>
                                 </div>
                                
                             </div>
@@ -133,7 +120,7 @@
                                     Quintana Roo, Mexico
                                 </div>
                                 <div class="col-sm-3">
-                                   <a href="https://www.residentadvisor.net/events/1193642"><button type="button" class="btn btn--red">TICKETS</button></a>
+                                   <a href="https://www.residentadvisor.net/events/1193642"><button class="btn btn-red">TICKETS</button></a>
                                 </div>
                        </div>
     
@@ -151,7 +138,7 @@
                                     London, United Kingdom
                                 </div>
                                 <div class="col-sm-3">
-                                   <a href="https://www.gigantic.com/black-coffee-tickets/london-o2-academy-brixton/2019-02-09-21-00"> <button type="button" class="btn btn--red">TICKETS</button></a>
+                                   <a href="https://www.gigantic.com/black-coffee-tickets/london-o2-academy-brixton/2019-02-09-21-00"> <button class="btn btn-red">TICKETS</button></a>
                                 </div>
                                 
                             </div>
@@ -169,7 +156,7 @@
                                     Columbus, OH
                                 </div>
                                 <div class="col-sm-3">
-                                  <a href="https://sonictemple.frontgatetickets.com"><button type="button" class="btn btn--red">TICKETS</button></a>
+                                  <a href="https://sonictemple.frontgatetickets.com"><button class="btn btn-red">TICKETS</button></a>
                                 </div>
                                 
                             </div>
@@ -263,12 +250,12 @@
 
                             <div class="row justify-content-center mb-4 col-sm">
                                 <!-- Newsletter Signup -->
-                                <form class="form-inline" onsubmit="fenquire()">
+                                <form class="form-block" onsubmit="fenquire()">
                                     <div class="form-group mx-sm-3">
-                                        <input type="email" class="form-control form-control-lg" id="signupemail" placeholder="Email" size="55" required>
+                                        <input type="email" class="form-control form-control-lg" id="signupemail" placeholder="Email" size="45" required>
                                     </div>
 
-                                    <input type="submit" value="Submit" class="btn btn-red">
+                                    <input type="submit" value="Submit" class="btn btn-red btn-sign">
                                 </form>
                             </div>
             </section>
@@ -330,7 +317,7 @@
                             </div>
                             <div class="form-group">
 
-                                <button type="submit" class="btn btn--red">Submit</button>
+                                <button type="submit" class="btn btn-red">Submit</button>
                         </form>
 
 
