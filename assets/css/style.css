@@ -9,7 +9,7 @@ body {
 /*--------------Containers----------------------------------------------------------------*/
 
 .callout-container {
-    height: 100vh;
+   height:100vh;
     background-image:linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url('../images/landing_image.jpg');
     -webkit-background-size: cover;
@@ -39,7 +39,7 @@ body {
     position: relative;
 }
 
-.container-wrapper--blackcoffeecontact {
+.container-wrapper-blackcoffeecontact {
     height: 100%; 
      background: url('../images/contact_rorange.png') no-repeat center ;
      -webkit-background-size: cover;
@@ -114,7 +114,7 @@ body {
    
 }
 
-.top-buffer {padding-top:30px;}
+.top-buffer {padding-top:40px;}
 
 
 
@@ -254,7 +254,8 @@ font-weight:bold;
 /* Buttons */
 
 .btn-sign {
-    width:270px;
+    width:80%;
+    
 }
 
 .btn-cta {
@@ -287,7 +288,7 @@ font-weight:bold;
 
 
 .form-control {
-   width:50%;
+    width:80%;
     display:inline;
 }
 
@@ -301,7 +302,7 @@ font-weight:bold;
 {
     background-color: #98958f;
     color: #F8F8F8;
-    
+    width: 80%; 
 }
 
 
