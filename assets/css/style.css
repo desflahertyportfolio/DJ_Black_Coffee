@@ -9,7 +9,7 @@ body {
 /*--------------Containers----------------------------------------------------------------*/
 
 .callout-container {
-   height:100vh;
+    height: 100vh;
     background-image:linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url('../images/landing_image.jpg');
     -webkit-background-size: cover;
@@ -28,6 +28,7 @@ body {
 
 
 .container-wrapper-blackcoffeetour {
+    height:100vh;
      background: url('../images/tourpic.jpg') no-repeat center ;
       -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -88,6 +89,24 @@ body {
     background-repeat: no-repeat;
 }
 
+.callout-container-music {
+   height:100%;
+    background-image:linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('../images/music.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 
 
 
@@ -98,13 +117,21 @@ body {
     text-align: center;
 }
 
-
-.header-icon  {
+.header-icon {
     color:#4e3317;
     font-family: Abel; font-size: 44px; font-style: normal;  
     font-weight:bold;
-     padding-bottom: 10px;
-     
+}
+
+
+
+.header-icon-contact  {
+    padding-bottom:10px;
+}
+
+
+.header-icon-tour  {
+    padding-bottom:30px;
 }
 
 .index-content {
@@ -114,7 +141,7 @@ body {
    
 }
 
-.top-buffer {padding-top:40px;}
+.top-buffer {padding-top:30px;}
 
 
 
@@ -231,7 +258,6 @@ adjust navbar collapse before logo icon*/
 .about-content-container {
     padding-top: 100px;
     padding-left: 20px;
-    
 }
 
 
@@ -250,12 +276,36 @@ font-weight:bold;
 }
 
 
+/* --------------MUSIC----------------------------*/
+
+.music-content-container {
+    padding-top: 10px;
+   
+}
+
+
+.embed-responsive-16by9 {
+   width:70%;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Buttons */
 
 .btn-sign {
-    width:80%;
-    
+    width:270px;
 }
 
 .btn-cta {
@@ -288,7 +338,7 @@ font-weight:bold;
 
 
 .form-control {
-    width:80%;
+   width:50%;
     display:inline;
 }
 
@@ -302,8 +352,11 @@ font-weight:bold;
 {
     background-color: #98958f;
     color: #F8F8F8;
-    width: 80%; 
+    
 }
+
+
+
 
 
 /*--------------Footer----------------------------------------------------------------*/
@@ -313,10 +366,11 @@ font-weight:bold;
 footer {
     background-color: #4e3317;
     min-height: 60px;
-   
     bottom:0;
     left: 0;
     width: 100%;
+    position: fixed;
+    
     
 }
 
