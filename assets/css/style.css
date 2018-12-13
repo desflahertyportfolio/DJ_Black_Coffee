@@ -172,8 +172,9 @@ body {
 }
 
 .header-icon-video  {
-    padding-bottom:10px;
-   
+    padding-top:100px;
+   padding-left:100px;
+   padding-right:100px;
 }
 
 
@@ -330,31 +331,15 @@ font-weight:bold;
    
 }
 
-.embed-responsive-16by9 {
-    width:100%;
-}
+
 
 
 /* --------------VIDEO---------------------------*/
-
-
-.embed-responsive-1 {
-padding-top:50px;
-padding-bottom: 60%;
-margin-left: 10%;
-margin-right: 10%;
-  
+.container {
+  background: #e3e3e3;
+  margin-bottom: 20px;
+  padding-bottom: 50px;
 }
-
-
-.embed-responsive-2 {
-  margin-top: 600px;
-  margin-bottom: 100px;
-  padding-bottom: 400px;
-  
-}
-
-
 
 
 
