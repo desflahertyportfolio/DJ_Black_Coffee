@@ -336,9 +336,10 @@ font-weight:bold;
 
 /* --------------VIDEO---------------------------*/
 .container {
-  background: #e3e3e3;
+  background: grey;
   margin-bottom: 20px;
   padding-bottom: 50px;
+  
 }
 
 
