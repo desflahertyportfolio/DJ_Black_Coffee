@@ -14,20 +14,19 @@
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Abel">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/underline.css">  
-    
+    <link rel="stylesheet" href="assets/css/underline.css">
+
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-    
-     <!-- Bootstrap 3 Navigation -->
+
+    <!-- Bootstrap 3 Navigation -->
     <nav class="navbar navbar-default" role="navigation">
         <div class="container-fluid">
             <div class="navbar-header">
-             <span class="navbar-brand pointer navbar-left" 
-             onclick="location='index.html'">
+                <span class="navbar-brand pointer navbar-left" onclick="location='index.html'">
                     <img src="../assets/images/logo_poster_edit.png" alt="Black Coffee Logo"></img>
                  </span>
 
@@ -40,7 +39,7 @@
                     <span class="icon-bar"></span>
                 </button>
             </div>
-           
+
 
             <!-- Collect the nav links for toggling -->
 
@@ -49,153 +48,235 @@
                     <li class="underline"><a href="about.html">ABOUT</a></li>
                     <li class="underline"><a href="#music">MUSIC</a></li>
                     <li class="underline"><a href="#video">VIDEOS</a></li>
-                    <li class="underline" ><a href="gallery.html">GALLERY</a></li>
-                    <li class="underline" ><a href="#tour">TOUR</a></li>
+                    <li class="underline"><a href="#gallery">GALLERY</a></li>
+                    <li class="underline"><a href="#tour">TOUR</a></li>
                     <li class="underline"><a href="#contact">CONTACT</a></li>
                 </ul>
-                
-            <!-- https://stackoverflow.com/questions/22518099/bootstrap-menu-change-li-active-class-on-click
+
+                <!-- https://stackoverflow.com/questions/22518099/bootstrap-menu-change-li-active-class-on-click
             change active status of navbar links on click
             -->
-            
-            
-   <script>
-  $(".nav li").on("click", function() {
-    $(".nav li").removeClass("active");
-    $(this).addClass("active");
-  });
-   </script>
-       </div>
+
+
+                <script>
+                    $(".nav li").on("click", function() {
+                        $(".nav li").removeClass("active");
+                        $(this).addClass("active");
+                    });
+                </script>
+            </div>
         </div>
     </nav>
 
     <div class="container-fluid callout-container">
-     
 
- <!-- Enquire button for Modal form -->
+
+        <!-- Enquire button for Modal form -->
         <div class="enquire-container">
             <div>
                 <button class="btn btn-lg btn-cta btn-red" data-toggle='modal' data-target='#enquireModal'>Enquiry</button>
             </div>
         </div>
     </div>
-    
-<!-------------------------MUSIC---------------------------------------------------------------->
 
-<div class="container-fluid container-wrapper-music" id="music">
-     <div class="content-container">
+    <!-------------------------MUSIC---------------------------------------------------------------->
+
+    <div class="container-fluid container-wrapper-music" id="music">
+        <div class="content-container">
             <section class="header">
                 <div class="row">
                     <div class="col-xs-12">
-                        <div class="header-icon header-icon-tour" >
-                              <h1 class="header-icon header-icon-tour text-uppercase"><i class="fa fa-headphones"></i>music</h1>
-                              
+                        <div class="header-icon header-icon-tour">
+                            <h1 class="header-icon header-icon-tour text-uppercase"><i class="fa fa-headphones"></i>music</h1>
                         </div>
-                        
-                      <div class="container">
-  <div class="row">
-    <div class="col-sm-12">
-       
-    <p class="video-content">BlackCoffee 'Pieces Of Me'</p>
-<div class="embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/327630671&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>   
-     
-     
-     <div class="row">
-    <div class="col-sm-12">
-     <button class="btn btn-red" onClick="window.open('https://www.amazon.co.uk/Pieces-Me-Black-Coffee/dp/B01K9OGN6G/ref=sr_1_3?ie=UTF8&qid=1544728917&sr=8-3&keywords=dj+black+coffee');">
-         <span class="icon">BUY NOW ON AMAZON</span>
-        </button> 
-     </div>
-     </div>
-  
-              
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <p class="video-content">BlackCoffee 'Pieces Of Me'</p>
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-responsive-item" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/327630671&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        </div>
-                        </div>
-                        </div>
-                        </div>
-                        </div>
-                        </section>
-                        </div>
-                        
-    
-     
-           
-                        
- </div>
-
-
-
-<!--
-
- --> 
-<!-------------------------VIDEOS---------------------------------------------------------------->
-
-<div class="container-fluid container-wrapper-video" id="video">
-    
-     <div class="content-container">
+                    </div>
+                </div>
+            </section>
             <section class="header">
                 <div class="row">
                     <div class="col-xs-12">
-                        
-                        <div class="header-icon header-icon-tour" >
-                              <h1 class="header-icon header-icon-tour text-uppercase"><i class="fa fa-video-camera"></i>videos</h1>
-                        </div>
-    
-    
-     <div class="container">
-  <div class="row">
-    <div class="col-sm-6">
-       
-    <p class="video-content">BlackCoffee Mix Videos</p>
-<div class="embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" src="//www.youtube.com/embed/videoseries?list=PL0PoRSC1k6fMjCgybiK7_eclYtdzq-XFX"
-    
- 
-    
-    ></iframe>
-</div>
-    </div>
-    
-    <div class="col-sm-6">
-        
-         <p class="video-content">BlackCoffee Live Mix</p>
-     <div class="embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" src="//www.youtube.com/embed/videoseries?list=PL0PoRSC1k6fOuUeCu502sDMSkvjKDOjRz"></iframe>
-  
-</div>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-sm-6">
-   
-   
-</div>
-
-   </div>
-</div>
-</div>
- 
+                        <button class="btn btn-red" onClick="window.open('https://www.amazon.co.uk/Pieces-Me-Black-Coffee/dp/B01K9OGN6G/ref=sr_1_3?ie=UTF8&qid=1544728917&sr=8-3&keywords=dj+black+coffee');">
+                         <span class="icon">BUY NOW ON AMAZON</span>
+                        </button>
+                    </div>
                 </div>
             </section>
         </div>
-
-
- </div>
+    </div>
 
 
 
-<!-------------------------TOUR------------------------------------------------------------------->
+  
+    <!-------------------------VIDEOS---------------------------------------------------------------->
+
+    <div class="container-fluid container-wrapper-video" id="video">
+        <div class="content-container">
+            <section class="header">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="header-icon header-icon-tour">
+                            <h1 class="header-icon header-icon-tour text-uppercase"><i class="fa fa-video-camera"></i>videos</h1>
+                        </div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <p class="video-content">BlackCoffee Mix Videos</p>
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-responsive-item" src="//www.youtube.com/embed/videoseries?list=PL0PoRSC1k6fMjCgybiK7_eclYtdzq-XFX"></iframe>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <p class="video-content">BlackCoffee Live Mix</p>
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-responsive-item" src="//www.youtube.com/embed/videoseries?list=PL0PoRSC1k6fOuUeCu502sDMSkvjKDOjRz"></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
     
+    
+    <!-------------------------GALLERY------------------------------------------------------------------->
+
+    <div class="container-wrapper-gallery" id="gallery">
+    <div class="content-container">
+            <section class="header">
+                <div class="row">
+                    
+                        <div class="header-icon header-icon-tour">
+                            <h1 class="header-icon header-icon-tour text-uppercase"><i class="fa fa-camera-retro"></i>gallery</h1>
+                        </div>
+                        
+                        
+                            <!-- Row 1 -->
+                            
+                                <div class="col-sm-3">
+                               
+                                <a href="https://www.instagram.com/p/Bqz6PHWBtR2/?utm_source=ig_embed&amp;utm_medium=loading" target="_blank">
+                                <img src="../assets/images/galpic1_e.jpg"  alt="blackcoffee_pic_car">
+                                </img></a>    
+                                   
+                                   
+                                </div>
+                                <div class="col-sm-3">
+                                  <a href="https://www.instagram.com/p/BrDxc8zB0BV/?utm_source=ig_embed&amp;utm_medium=loading" target="_blank">
+                                    <img src="../assets/images/galpic2_e.jpg"  alt="blackcoffee_pic_3guys">
+                                </img></a>   
+                                      
+                                      
+                                </div>
+                                <div class="col-sm-3">
+                                <a href="https://www.instagram.com/p/Bp0_NYohotJ/?utm_source=ig_embed&amp;utm_medium=loading" target="_blank">
+                                    <img src="../assets/images/galpic3_e.jpg"  alt="blackcoffee_pic_4guys">
+                                </img></a> 
+                                    
+                                    
+                                </div>
+                                <div class="col-sm-3">
+                                  <a href="https://www.instagram.com/p/BpcGsTahcRP/?utm_source=ig_embed&amp;utm_medium=loading" target="_blank">
+                                     <img src="../assets/images/galpic4_e.jpg"  alt="blackcoffee_picmag">
+                                </img></a>  
+                                </div>
+
+                         <div class="gallery-margin"</div>
+                            
+                            
+                         <!-- Row 2 -->
+                            
+                                <div class="col-sm-3">
+                              
+                                <a href="https://www.instagram.com/p/Bow4wAnBLrU/?utm_source=ig_embed&amp;utm_medium=loading"  target="_blank">
+                                <img src="../assets/images/galpic5_e.jpg"  alt="blackcoffee_poster">
+                                </img></a>    
+                                   
+                                   
+                                </div>
+                                <div class="col-sm-3">
+                                   
+                                  <a href="https://www.instagram.com/p/BolnZPAhGCH/?utm_source=ig_embed&amp;utm_medium=loading" target="_blank">
+                                    <img src="../assets/images/galpic6_e.jpg"  alt="blackcoffee_wall">
+                                </img></a>   
+                                      
+                                      
+                                </div>
+                                <div class="col-sm-3">
+                                    
+                                    
+                                    
+                                    
+                                <a href="https://www.instagram.com/p/BoJU7_thZKn/?utm_source=ig_embed&amp;utm_medium=loading"  target="_blank">
+                                    <img src="../assets/images/galpic7_e.jpg"  alt="blackcoffee_tracksuit">
+                                </img></a> 
+                                    
+                                    
+                                </div>
+                                <div class="col-sm-3">
+                                    
+                                    
+                                    
+                                    
+                                    
+                                  <a href="https://www.instagram.com/p/BoCQpRCBIGo/?utm_source=ig_embed&amp;utm_medium=loading" target="_blank">
+                                     <img src="../assets/images/galpic8_e.jpg"  alt="blackcoffee_djset">
+                                </img></a>  
+                                </div>
+
+                            </div>
+                            </div>   
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+            
+            
+            
+            
+            
+            
+            
+                        
+                        
+                        
+                        
+                    </div>
+                </div>
+            </section>
+    </div>
+    </div>
+    
+
+
+    <!-------------------------TOUR------------------------------------------------------------------->
+
     <div class="container-wrapper-blackcoffeetour" id="tour">
         <div class="content-container">
             <section class="header">
                 <div class="row">
                     <div class="col-xs-12">
-                        
-                        <div class="header-icon header-icon-tour" >
-                              <h1 class="header-icon header-icon-tour text-uppercase"><i class="fa fa-ticket"></i>tour</h1>
+
+                        <div class="header-icon header-icon-tour">
+                            <h1 class="header-icon header-icon-tour text-uppercase"><i class="fa fa-ticket"></i>tour</h1>
                         </div>
 
                         <!-- Tour Dates -->
@@ -214,12 +295,12 @@
                                 <div class="col-sm-3">
                                     <a href="https://www.residentadvisor.net/events/1151372"><button class="btn btn-red">TICKETS</button></a>
                                 </div>
-                               
+
                             </div>
                             <div class="top-buffer"></div>
                             <!-- Row 2 -->
                             <div class="row">
-                                
+
                                 <div class="col-sm-3">
                                     Jan 12
                                 </div>
@@ -230,14 +311,14 @@
                                     Quintana Roo, Mexico
                                 </div>
                                 <div class="col-sm-3">
-                                   <a href="https://www.residentadvisor.net/events/1193642"><button class="btn btn-red">TICKETS</button></a>
+                                    <a href="https://www.residentadvisor.net/events/1193642"><button class="btn btn-red">TICKETS</button></a>
                                 </div>
-                       </div>
-    
+                            </div>
+
                             <div class="top-buffer"></div>
                             <!-- Row 3 -->
                             <div class="row">
-                                
+
                                 <div class="col-sm-3">
                                     Feb 16
                                 </div>
@@ -248,14 +329,14 @@
                                     London, United Kingdom
                                 </div>
                                 <div class="col-sm-3">
-                                   <a href="https://www.gigantic.com/black-coffee-tickets/london-o2-academy-brixton/2019-02-09-21-00"> <button class="btn btn-red">TICKETS</button></a>
+                                    <a href="https://www.gigantic.com/black-coffee-tickets/london-o2-academy-brixton/2019-02-09-21-00"> <button class="btn btn-red">TICKETS</button></a>
                                 </div>
-                                
+
                             </div>
                             <div class="top-buffer"></div>
                             <!-- Row 4 -->
                             <div class="row">
-                                
+
                                 <div class="col-sm-3">
                                     May 17
                                 </div>
@@ -266,9 +347,9 @@
                                     Columbus, OH
                                 </div>
                                 <div class="col-sm-3">
-                                  <a href="https://sonictemple.frontgatetickets.com"><button class="btn btn-red">TICKETS</button></a>
+                                    <a href="https://sonictemple.frontgatetickets.com"><button class="btn btn-red">TICKETS</button></a>
                                 </div>
-                                
+
                             </div>
 
                         </div>
@@ -279,84 +360,83 @@
     </div>
 
 
- <!--------------------- Contact------------------------------------------->
+    <!--------------------- Contact------------------------------------------->
 
     <div class="container-wrapper-blackcoffeecontact" id="contact">
-        <div class="content-container" >
-       <section class="header">
+        <div class="content-container">
+            <section class="header">
                 <div class="row">
                     <div class="col-xs-12">
                         <div class="header-icon header-icon-contact">
                             <h1 class="header-icon header-icon-contact text-uppercase"><i class="fa fa-globe"></i>contact</h1>
                         </div>
-                        
-                        
-                    
-                        
-                        
-                      <div class="index-content text-uppercase">
+
+
+
+
+
+                        <div class="index-content text-uppercase">
                             <!-- Row 1 -->
-                            
+
                             <div class="row">
-                            <h3>South Africa & Africa:</h3>
-                            <div class="col-6"></div>
-                            <div class="col-6">
-                            Neo Chabedi | media@soulisticmusic.com
+                                <h3>South Africa & Africa:</h3>
+                                <div class="col-6"></div>
+                                <div class="col-6">
+                                    Neo Chabedi | media@soulisticmusic.com
+                                </div>
                             </div>
-                            </div>
-                            
+
                             <div class="row">
-                             <div class="col-6"></div>
-                             <div class="col-6">
-                             bookings@soulisticmusic.com
-                             </div>
-                             </div>
-                             
-                             <div class="row">
-                             <div class="col-6"></div>
-                             <div class="col-6">
-                             general manager | gm@soulisticmusic.com
-                             </div>
-                             </div>
-                             
-                             <div class="row">
-                             <div class="col-6"></div>
-                             <div class="col-6"><i class ="fa fa-phone"></i>
-                             Call +27 11 026 3727
-                             </div>
-                             </div>
-                             <p class="top-buffer"></p>
-                           <!-- Row 2 -->
-                            <div class="row">
-                            <h3>Europe, Asia & Americas:</h3>
-                            <div class="col-6"></div>
-                            <div class="col-6">
-                            Cristiana@Rt-agency.com
+                                <div class="col-6"></div>
+                                <div class="col-6">
+                                    bookings@soulisticmusic.com
+                                </div>
                             </div>
-                            </div>
-                            
+
                             <div class="row">
-                             <div class="col-6"></div>
-                             <div class="col-6">
-                             bookings@rt-agency.com
-                             </div>
-                             </div>
-                             
-                             <div class="row">
-                             <div class="col-6"></div>
-                             <div class="col-6">
-                             james.mack@listen-up.biz
-                             </div>
-                             </div>
-                              <p class="top-buffer"></p>
-                             <!-- Row 3 -->    
-                             
-                            <div class="row">
-                             <h3> subscribe:</h3>
-                             Sign up to receive all the latest news and music from Black Coffee
+                                <div class="col-6"></div>
+                                <div class="col-6">
+                                    general manager | gm@soulisticmusic.com
+                                </div>
                             </div>
-                                <p class="top-buffer"></p>
-                            
+
+                            <div class="row">
+                                <div class="col-6"></div>
+                                <div class="col-6"><i class="fa fa-phone"></i> Call +27 11 026 3727
+                                </div>
+                            </div>
+                            <p class="top-buffer"></p>
+                            <!-- Row 2 -->
+                            <div class="row">
+                                <h3>Europe, Asia & Americas:</h3>
+                                <div class="col-6"></div>
+                                <div class="col-6">
+                                    Cristiana@Rt-agency.com
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-6"></div>
+                                <div class="col-6">
+                                    bookings@rt-agency.com
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-6"></div>
+                                <div class="col-6">
+                                    james.mack@listen-up.biz
+                                </div>
+                            </div>
+                            <p class="top-buffer"></p>
+                            <!-- Row 3 -->
+
+                            <div class="row">
+                                <h3> subscribe:</h3>
+                                Sign up to receive all the latest news and music from Black Coffee
+                            </div>
+                            <p class="top-buffer"></p>
+
 
                             <div class="row justify-content-center mb-4 col-sm">
                                 <!-- Newsletter Signup -->
@@ -373,10 +453,10 @@
             </div>
             </div>
             </div>
-   </div>
+        </div>
 
 
-<!--------------------- Footer & Social Links------------------------------------------->
+        <!--------------------- Footer & Social Links------------------------------------------->
 
         <footer class="container-fluid">
             <div class="row">
@@ -396,7 +476,7 @@
 
 
 
- <!--------------------------------- Modal ------------------------------------------------------->
+    <!--------------------------------- Modal ------------------------------------------------------->
 
 
     <div class="modal fade" id="enquireModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
@@ -437,10 +517,10 @@
                     </div>
                 </div>
             </div>
- 
- 
 
- 
+
+
+
 
 
             <!--Code for when clicking submit for form found on: https://www.w3schools.com/js/js_popup.asp -->
@@ -453,7 +533,7 @@
             </script>
 
 
-            
+
 
 
 
