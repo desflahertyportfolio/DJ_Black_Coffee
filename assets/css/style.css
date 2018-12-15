@@ -10,6 +10,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     position:relative;
+    
 }
 
 
@@ -73,7 +74,7 @@ height:100vh;
 
 
 .content-container {
- padding-top: 100px;
+ padding-top: 80px;
  padding-bottom: 100px;
 }
 
@@ -171,7 +172,7 @@ height:100vh;
 }
 
 
-.header-icon-tour  {
+.header-icon-p  {
     padding-bottom:30px;
 }
 
@@ -301,7 +302,6 @@ adjust navbar collapse before logo icon*/
     padding-top: 100px;
     padding-left: 20px;
 }
-
 
 
 .about-content {

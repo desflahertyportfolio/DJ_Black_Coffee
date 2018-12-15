@@ -45,20 +45,24 @@
                   
                  
                     <li class="active"><a href="about.html">ABOUT</a></li>
-                    <li class=" underline"><a href="music.html">MUSIC</a></li>
-                    <li class=" underline"><a href="index.html#video">VIDEOS</a></li>
-                    <li class="underline"><a href="gallery.html">GALLERY</a></li>
+                    <li class="underline"><a href="index.html#music">MUSIC</a></li>
+                    <li class="underline"><a href="index.html#video">VIDEOS</a></li>
+                    <li class="underline"><a href="index.html#gallery">GALLERY</a></li>
                     <li class="underline"><a href="index.html#tour">TOUR</a></li>
-                    <li class=" underline"><a href="index.html#contact">CONTACT</a></li>
+                    <li class="underline"><a href="index.html#contact">CONTACT</a></li>
                 </ul>
                 
                  <!-- https://stackoverflow.com/questions/22518099/bootstrap-menu-change-li-active-class-on-click
             change active status of navbar on click-->
    <script>
-  $(".nav li").on("click", function() {
+  /* global $*/ (".nav li").on("click", function() {
     $(".nav li").removeClass("active");
     $(this).addClass("active");
   });
+  
+  
+  
+  
    </script>
         <!--end of script--> 
 

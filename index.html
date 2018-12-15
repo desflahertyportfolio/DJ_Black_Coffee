@@ -12,8 +12,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
    
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Abel">
-    <link rel="stylesheet" "https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i">
+   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Abel">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i" rel="stylesheet">
    
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/underline.css">
@@ -57,15 +57,17 @@
                 </ul>
 
                 <!-- https://stackoverflow.com/questions/22518099/bootstrap-menu-change-li-active-class-on-click
-            change active status of navbar links on click
+            change active status of navbar links on click.
+            
             -->
 
-
                 <script>
-                    $(".nav li").on("click", function() {
+                    /* global $*/(".nav li").on("click", function() {
                         $(".nav li").removeClass("active");
                         $(this).addClass("active");
                     });
+            
+                //https://v4-alpha.getbootstrap.com/components/scrollspy/#mdo. Scroll spy used to update links on scroll.
                 
                 $('body').scrollspy({ target: '#navbar'})
                
@@ -94,8 +96,8 @@
             <section class="header">
                 <div class="row">
                     <div class="col-xs-12">
-                        <div class="header-icon header-icon-tour">
-                            <h1 class="header-icon header-icon-tour text-uppercase"><i class="fa fa-headphones"></i>music</h1>
+                        <div class="header-icon header-icon-p">
+                            <h1 class="header-icon header-icon-p text-uppercase"><i class="fa fa-headphones"></i>music</h1>
                         </div>
                         <div class="container">
                             <div class="row">
@@ -132,8 +134,8 @@
             <section class="header">
                 <div class="row">
                     <div class="col-xs-12">
-                        <div class="header-icon header-icon-tour">
-                            <h1 class="header-icon header-icon-tour text-uppercase"><i class="fa fa-video-camera"></i>videos</h1>
+                        <div class="header-icon header-icon-p">
+                            <h1 class="header-icon header-icon-p text-uppercase"><i class="fa fa-video-camera"></i>videos</h1>
                         </div>
                         <div class="container">
                             <div class="row">
@@ -169,8 +171,8 @@
             <section class="header">
                 <div class="row">
                     
-                        <div class="header-icon header-icon-tour">
-                            <h1 class="header-icon header-icon-tour text-uppercase"><i class="fa fa-camera-retro"></i>gallery</h1>
+                        <div class="header-icon header-icon-p">
+                            <h1 class="header-icon header-icon-p text-uppercase"><i class="fa fa-camera-retro"></i>gallery</h1>
                         </div>
                   </div>      
                         
@@ -267,8 +269,8 @@
                 <div class="row">
                     <div class="col-xs-12">
 
-                        <div class="header-icon header-icon-tour">
-                            <h1 class="header-icon header-icon-tour text-uppercase"><i class="fa fa-ticket"></i>tour</h1>
+                        <div class="header-icon header-icon-p">
+                            <h1 class="header-icon header-icon-p text-uppercase"><i class="fa fa-ticket"></i>tour</h1>
                         </div>
 
 
