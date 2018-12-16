@@ -295,6 +295,7 @@ adjust navbar collapse before logo icon*/
     
 }            
 
+
 /* End of code for nav collapse */
 
 /*----------------ABOUT PAGE----------------------- */
@@ -354,7 +355,7 @@ font-weight:bold;
 /* Buttons */
 
 .btn-sign {
-    width:270px;
+    width:200px;
 }
 
 .btn-cta {
