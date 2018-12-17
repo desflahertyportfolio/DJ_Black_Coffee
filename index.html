@@ -1,36 +1,27 @@
 <!DOCTYPE html>
-<html>
 
 <html lang="en-us">
-
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
     <title>Black Coffee DJ</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
-
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Abel">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i" rel="stylesheet">
-
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/underline.css">
-
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 
 <body data-spy="scroll" data-target="#navbar">
-
     <!-- Bootstrap 3 Navigation -->
-    <nav class="navbar navbar-default" role="navigation">
+    <nav class="navbar navbar-default">
         <div class="container-fluid">
             <div class="navbar-header">
                 <span class="navbar-brand pointer navbar-left" onclick="location='index.html'">
-                    <img src="../assets/images/logo_poster_edit.png" alt="Black Coffee Logo"></img>
+                    <img src="../assets/images/logo_poster_edit.png" alt="Black Coffee Logo">
                  </span>
 
                 <!-- Collapsed navbar with icon-bars -->
@@ -57,10 +48,8 @@
                 </ul>
 
                 <!-- https://stackoverflow.com/questions/22518099/bootstrap-menu-change-li-active-class-on-click
-            change active status of navbar links on click.
-            
-            -->
-
+                ***change status of navbar links on click to active***
+                -->
                 <script>
                     /* global $*/
                     (".nav li").on("click", function() {
@@ -72,17 +61,12 @@
 
                     $('body').scrollspy({ target: '#navbar' })
                 </script>
-
-
             </div>
         </div>
     </nav>
 
     <div class="container-fluid callout-container">
-
-
         <!-- Enquire button for Modal form -->
-
         <div class="enquire-container">
             <div>
                 <button class="btn btn-lg btn-cta btn-red" data-toggle='modal' data-target='#enquireModal'>Enquiry</button>
@@ -90,9 +74,7 @@
         </div>
     </div>
 
-
-
-    <!-------------------------MUSIC---------------------------------------------------------------->
+    <!-- MUSIC -->
 
     <div class="container-fluid container-wrapper-music" id="music">
         <div class="content-container">
@@ -105,7 +87,7 @@
                         <div class="container">
                             <div class="row">
                                 <div class="col-sm-12">
-                                    <p class="video-content">BlackCoffee 'Pieces Of Me'</p>
+                                    <p class="video-content">BlackCoffee &#39;Pieces Of Me&#39;</p>
                                     <div class="embed-responsive embed-responsive-16by9">
                                         <iframe class="embed-responsive-item" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/327630671&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
                                     </div>
@@ -119,7 +101,7 @@
                 <div class="row">
                     <div class="col-xs-12">
                         <button class="btn btn-red" onClick="window.open('https://www.amazon.co.uk/Pieces-Me-Black-Coffee/dp/B01K9OGN6G/ref=sr_1_3?ie=UTF8&qid=1544728917&sr=8-3&keywords=dj+black+coffee');">
-                         <span class="icon">BUY NOW ON AMAZON</span>
+                         <span class="icon text-uppercase">buy now on amazon</span>
                         </button>
                     </div>
                 </div>
@@ -127,10 +109,7 @@
         </div>
     </div>
 
-
-
-
-    <!-------------------------VIDEOS---------------------------------------------------------------->
+    <!-- VIDEOS -->
 
     <div class="container-fluid container-wrapper-video" id="video">
         <div class="content-container">
@@ -155,10 +134,6 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="col-sm-6">
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -167,126 +142,87 @@
     </div>
 
 
-    <!-------------------------GALLERY------------------------------------------------------------------->
+    <!-- GALLERY -->
 
     <div class="container-wrapper-gallery" id="gallery">
         <div class="content-container">
             <section class="header">
                 <div class="row">
-
                     <div class="header-icon header-icon-p">
                         <h1 class="header-icon header-icon-p text-uppercase"><i class="fa fa-camera-retro"></i>gallery</h1>
                     </div>
                 </div>
-
-
                 <!-- Row 1 -->
-
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-3">
-
                             <a href="https://www.instagram.com/p/Bqz6PHWBtR2/?utm_source=ig_embed&amp;utm_medium=loading" target="_blank">
                                 <img src="../assets/images/galpic1_e.jpg" class="img-responsive" alt="blackcoffee_pic_car">
-                                </img></a>
-
-
+                                </a>
                         </div>
                         <div class="col-sm-3">
                             <a href="https://www.instagram.com/p/BrDxc8zB0BV/?utm_source=ig_embed&amp;utm_medium=loading" target="_blank">
                                     <img src="../assets/images/galpic2_e.jpg" class="img-responsive" alt="blackcoffee_pic_3guys">
-                                </img></a>
-
-
+                                </a>
                         </div>
                         <div class="col-sm-3">
                             <a href="https://www.instagram.com/p/Bp0_NYohotJ/?utm_source=ig_embed&amp;utm_medium=loading" target="_blank">
                                     <img src="../assets/images/galpic3_e.jpg" class="img-responsive" alt="blackcoffee_pic_4guys">
-                                </img></a>
-
-
+                                </a>
                         </div>
                         <div class="col-sm-3">
                             <a href="https://www.instagram.com/p/BpcGsTahcRP/?utm_source=ig_embed&amp;utm_medium=loading" target="_blank">
                                      <img src="../assets/images/galpic4_e.jpg" class="img-responsive" alt="blackcoffee_picmag">
-                                </img></a>
+                                </a>
                         </div>
                     </div>
-
                     <div class="gallery-margin"></div>
-
-
                     <!-- Row 2 -->
-
                     <div class="row">
                         <div class="col-sm-3">
-
                             <a href="https://www.instagram.com/p/Bow4wAnBLrU/?utm_source=ig_embed&amp;utm_medium=loading" target="_blank">
                                 <img src="../assets/images/galpic5_e.jpg" class="img-responsive" alt="blackcoffee_poster">
-                                </img></a>
-
-
+                                </a>
                         </div>
                         <div class="col-sm-3">
-
                             <a href="https://www.instagram.com/p/BolnZPAhGCH/?utm_source=ig_embed&amp;utm_medium=loading" target="_blank">
                                     <img src="../assets/images/galpic6_e.jpg" class="img-responsive" alt="blackcoffee_wall">
-                                </img></a>
-
-
+                                </a>
                         </div>
                         <div class="col-sm-3">
-
-
-
-
                             <a href="https://www.instagram.com/p/BoJU7_thZKn/?utm_source=ig_embed&amp;utm_medium=loading" target="_blank">
                                     <img src="../assets/images/galpic7_e.jpg" class="img-responsive" alt="blackcoffee_tracksuit">
-                                </img></a>
-
-
+                                </a>
                         </div>
                         <div class="col-sm-3">
-
-
-
-
-
                             <a href="https://www.instagram.com/p/BoCQpRCBIGo/?utm_source=ig_embed&amp;utm_medium=loading" target="_blank">
                                      <img src="../assets/images/galpic8_e.jpg" class="img-responsive" alt="blackcoffee_djset">
-                                </img></a>
+                                </a>
                         </div>
                     </div>
                 </div>
         </div>
-
     </div>
-    </div>
-    </div>
+    
     </section>
     </div>
     </div>
 
 
 
-    <!-------------------------TOUR------------------------------------------------------------------->
+    <!-- TOUR -->
 
     <div class="container-wrapper-blackcoffeetour" id="tour">
         <div class="content-container">
             <section class="header">
                 <div class="row">
                     <div class="col-xs-12">
-
                         <div class="header-icon header-icon-p">
                             <h1 class="header-icon header-icon-p text-uppercase"><i class="fa fa-ticket"></i>tour</h1>
                         </div>
-
-
                         <!-- Tour Dates -->
-
                         <div class="index-content text-uppercase">
                             <!-- Row 1 -->
-
                             <div class="row">
                                 <div class="col-sm-3">
                                     Jan 11
@@ -295,18 +231,15 @@
                                     Cenote Dos Palmas
                                 </div>
                                 <div class="col-sm-3">
-                                    Nuevo Mexico, Mexico
+                                    Nuevo Mexico&#44; Mexico
                                 </div>
                                 <div class="col-sm-3">
-                                    <a href="https://www.residentadvisor.net/events/1151372" target="_blank"><button class="btn btn-red">TICKETS</button></a>
+                                    <a class="btn btn-red text-uppercase" href="https://www.residentadvisor.net/events/1151372" target="_blank" role="button">tickets</a>
                                 </div>
-
                             </div>
                             <div class="top-buffer"></div>
                             <!-- Row 2 -->
-
                             <div class="row">
-
                                 <div class="col-sm-3">
                                     Jan 12
                                 </div>
@@ -314,18 +247,15 @@
                                     Playa Paraiso District
                                 </div>
                                 <div class="col-sm-3">
-                                    Quintana Roo, Mexico
+                                    Quintana Roo&#44; Mexico
                                 </div>
                                 <div class="col-sm-3">
-                                    <a href="https://www.residentadvisor.net/events/1193642" target="_blank"><button class="btn btn-red">TICKETS</button></a>
+                                    <a class="btn btn-red text-uppercase" href="https://www.residentadvisor.net/events/1193642" target="_blank" role="button">tickets</a>
                                 </div>
                             </div>
-
                             <div class="top-buffer"></div>
                             <!-- Row 3 -->
-
                             <div class="row">
-
                                 <div class="col-sm-3">
                                     Feb 16
                                 </div>
@@ -333,18 +263,15 @@
                                     02 Academy Brixton
                                 </div>
                                 <div class="col-sm-3">
-                                    London, United Kingdom
+                                    London&#44; United Kingdom
                                 </div>
                                 <div class="col-sm-3">
-                                    <a href="https://www.gigantic.com/black-coffee-tickets/london-o2-academy-brixton/2019-02-09-21-00" target="_blank"> <button class="btn btn-red">TICKETS</button></a>
+                                   <a class="btn btn-red text-uppercase" href="https://www.gigantic.com/black-coffee-tickets/london-o2-academy-brixton/2019-02-09-21-00" target="_blank" role="button">tickets</a>
                                 </div>
-
                             </div>
                             <div class="top-buffer"></div>
                             <!-- Row 4 -->
-
                             <div class="row">
-
                                 <div class="col-sm-3">
                                     May 17
                                 </div>
@@ -352,14 +279,12 @@
                                     MAPFRE Stadium
                                 </div>
                                 <div class="col-sm-3">
-                                    Columbus, OH
+                                    Columbus&#44; OH
                                 </div>
                                 <div class="col-sm-3">
-                                    <a href="https://sonictemple.frontgatetickets.com" target="_blank"><button class="btn btn-red">TICKETS</button></a>
+                                     <a class="btn btn-red text-uppercase" href="https://sonictemple.frontgatetickets.com" target="_blank" role="button">tickets</a>
                                 </div>
-
                             </div>
-
                         </div>
                     </div>
                 </div>
@@ -368,7 +293,7 @@
     </div>
 
 
-    <!--------------------- Contact------------------------------------------->
+    <!-- Contact -->
 
     <div class="container-wrapper-blackcoffeecontact" id="contact">
         <div class="content-container">
@@ -378,103 +303,76 @@
                         <div class="header-icon header-icon-contact">
                             <h1 class="header-icon header-icon-contact text-uppercase"><i class="fa fa-globe"></i>contact</h1>
                         </div>
-
-
-
-
-
+                        </div>
                         <div class="index-content text-uppercase">
                             <div class="row">
-                                <h3>South Africa & Africa:</h3>
+                                <h3>South Africa &#38; Africa &#58;</h3>
                                 <div class="col-6"></div>
                                 <div class="col-6">
-                                    media@soulisticmusic.com
+                                    media&#64;soulisticmusic&#46;com
                                 </div>
                             </div>
-
                             <div class="row">
                                 <div class="col-6"></div>
                                 <div class="col-6">
-                                    bookings@soulisticmusic.com
+                                    bookings&#64;soulisticmusic&#46;com
                                 </div>
                             </div>
-
                             <div class="row">
                                 <div class="col-6"></div>
                                 <div class="col-6">
-                                    gm@soulisticmusic.com
+                                    gm&#64;soulisticmusic&#46;com
                                 </div>
                             </div>
-
                             <div class="row">
                                 <div class="col-6"></div>
-                                <div class="col-6"><i class="fa fa-phone"></i> Call +27 11 026 3727
+                                <div class="col-6"><i class="fa fa-phone"></i> Call &#43;27 11 026 3727
                                 </div>
                             </div>
                             <p class="top-buffer"></p>
-
-
                             <div class="row">
-                                <h3>Europe, Asia & Americas:</h3>
+                                <h3>Europe&#44; Asia &#38; Americas &#58;</h3>
                                 <div class="col-6"></div>
                                 <div class="col-6">
-                                    Cristiana@Rt-agency.com
+                                    Cristiana&#64;Rt&#45;agency&#46;com
                                 </div>
                             </div>
-
                             <div class="row">
                                 <div class="col-6"></div>
                                 <div class="col-6">
-                                    bookings@rt-agency.com
+                                    bookings&#64;rt&#45;agency&#46;com
                                 </div>
                             </div>
-
                             <div class="row">
                                 <div class="col-6"></div>
                                 <div class="col-6">
-                                    james.mack@listen-up.biz
+                                    james&#46;mack&#64;listen&#45;up&#46;biz
                                 </div>
                             </div>
                             <p class="top-buffer"></p>
-
-
                             <div class="row">
-
-                                <h3> subscribe:</h3>
+                                <h3> subscribe &#58;</h3>
                                 Sign up to receive the latest news
-
                             </div>
-
                             <p class="top-buffer"></p>
-
-
                             <div class="row justify-content-center mb-4 col-sm">
-
-
                                 <form class="form-block" onsubmit="fsignup()">
                                     <div class="form-group mx-sm-3">
                                         <input type="email" class="form-control form-control-lg" id="signupemail" placeholder="Email" size="50" required>
                                     </div>
-
                                     <input type="submit" value="Submit" class="btn btn-red btn-sign">
                                 </form>
                             </div>
+                            </div>
             </section>
-
             </div>
             </div>
-            </div>
-
-
-        </div>
-
-
-        <!--------------------- Footer & Social Links------------------------------------------->
+           
+        <!--  Footer & Social Links -->
 
         <footer class="container-fluid">
             <div class="row">
                 <!-- Social Links -->
-
                 <div class="row col-xs-12">
                     <section class="social-header">
                         <ul class="d-flex list-inline social-links">
@@ -488,9 +386,7 @@
             </div>
     </div>
 
-
-
-    <!--------------------------------- Modal ------------------------------------------------------->
+    <!-- Modal -->
 
 
     <div class="modal fade" id="enquireModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
@@ -498,13 +394,11 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title" id="myModalLabel">General enquiries or bookings!</h4>
+                    <h4 class="modal-title" id="myModalLabel">General enquiries or bookings &#33;</h4>
                 </div>
                 <div class="modal-body">
-
                     <div class="justify-content-center">
                         <form class="booking-form" onsubmit="fenquire()">
-
                             <div class="form-group">
                                 <input type="text" class="form-control" id="name" placeholder="Name" required>
                             </div>
@@ -514,28 +408,17 @@
                             <div class="form-group">
                                 <input type="tel" class="form-control" id="telephone" pattern="^\d{3}\d{3}\d{4}$" placeholder="Telephone (mobile format: xxx-xxxxxxx)" required>
                             </div>
-
-
                             <div class="form-group">
                                 <textarea class="form-control" id="enquiry" rows="8" placeholder="Your Enquiry" required></textarea>
                             </div>
                             <div class="form-group">
-
                                 <button type="submit" class="btn btn-red">Submit</button>
+                            </div>    
                         </form>
-
-
-
-
                         </div>
                     </div>
                 </div>
             </div>
-
-
-
-
-
 
             <!--Code for when clicking submit for form found on: https://www.w3schools.com/js/js_popup.asp -->
             <script>
@@ -544,15 +427,15 @@
                     if (confirm("Thank you for your enquiry!")) {}
                     document.getElementById("demo").innerHTML = txt;
                 }
-                
-                 function fsignup() {
+
+                function fsignup() {
                     var txt;
                     if (confirm("Thank you for signing up!")) {}
                     document.getElementById("demo").innerHTML = txt;
                 }
             </script>
-            
-               
+
+
 
             <!--https://github.com/twbs/bootstrap/issues/12852 navbar collapse with scroll spy-->
             <script>
@@ -562,9 +445,6 @@
                     }
                 });
             </script>
-
-
-
 
 </body>
 
