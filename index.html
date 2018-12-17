@@ -451,9 +451,9 @@
                             <div class="row justify-content-center mb-4 col-sm">
 
 
-                                <form class="form-block" onsubmit="fenquire()">
+                                <form class="form-block" onsubmit="fsignup()">
                                     <div class="form-group mx-sm-3">
-                                        <input type="email" class="form-control form-control-lg" id="signupemail" placeholder="Email" size="45" required>
+                                        <input type="email" class="form-control form-control-lg" id="signupemail" placeholder="Email" size="50" required>
                                     </div>
 
                                     <input type="submit" value="Submit" class="btn btn-red btn-sign">
@@ -544,7 +544,15 @@
                     if (confirm("Thank you for your enquiry!")) {}
                     document.getElementById("demo").innerHTML = txt;
                 }
+                
+                 function fsignup() {
+                    var txt;
+                    if (confirm("Thank you for signing up!")) {}
+                    document.getElementById("demo").innerHTML = txt;
+                }
             </script>
+            
+               
 
             <!--https://github.com/twbs/bootstrap/issues/12852 navbar collapse with scroll spy-->
             <script>
