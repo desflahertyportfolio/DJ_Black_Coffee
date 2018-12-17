@@ -38,10 +38,8 @@ width:100%;
 
 
 .container-wrapper-blackcoffeetour {
-    height:100%;
-    width:100%;
      background: url('../images/tourpic.jpg') no-repeat center ;
-      -webkit-background-size: cover;
+     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
@@ -49,6 +47,7 @@ width:100%;
     align-items: center;
     justify-content: center;
     position: relative;
+   
 }
 
 .container-wrapper-blackcoffeecontact {
@@ -301,8 +300,15 @@ adjust navbar collapse before logo icon*/
     
 }            
 
-
 /* End of code for nav collapse */
+
+
+
+
+
+
+
+
 
 /*----------------ABOUT PAGE----------------------- */
 
@@ -441,12 +447,19 @@ footer {
 }
 
 
+
 .social-links {
-    padding-bottom: 0px;
     float:right;
+}
+
+/* footer media links */
+
+@media (max-width: 470px) {
+.social-links {
+    float:none;
+    padding-left: 10px;
     padding-right: 10px;
-    
-    
+}
 }
 
 .social-text {
@@ -455,7 +468,7 @@ font-family: Abel; font-size: 14px; font-style: normal;
 font-weight:bold;
 float: left;
 padding-left: 10px;
-
+padding-top: 10px;
 }
 
 .social-links li  i {
@@ -479,7 +492,7 @@ padding-left: 10px;
 
 
 .social-links li  i:hover {
-    /*color: #f05f40;*/
+ 
     background-color: #f05f40;
 }
 
