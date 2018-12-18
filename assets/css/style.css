@@ -2,23 +2,23 @@
 
 /*--------------Body Text----------------------------------------------------------------*/
 
-
-
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i);
-@import url(//fonts.googleapis.com/css?family=Abel);
-
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Abel', sans-serif;
     position:relative;
-    
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+  
 }
 
 
-/*--------------Containers----------------------------------------------------------------*/
+/*--------------Background Image Containers----------------------------------------------------------------*/
 
 .callout-container {
-height:100VH;
-width:100%;
+    height:100VH;
+    width:100%;
     background-image:linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url('../images/landing_image.jpg');
     -webkit-background-size: cover;
@@ -57,32 +57,10 @@ width:100%;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
-}
-
-
-.enquire-container {
-  height: 100%;
-  width: 100%;
-  display: flex;
-  position: relative;
-  align-items: center;
-  justify-content: center;
-}
-
-
-.content-container {
- padding-top: 80px;
- padding-bottom: 100px;
-}
-
-.content-container-video {
- margin-top: 10px;
-
 }
 
 .callout-container-about {
@@ -151,19 +129,30 @@ width:100%;
 }
 
 
+.enquire-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.content-container {
+ padding-top: 80px;
+ padding-bottom: 100px;
+}
+
 /*--------------------- index page content------------------------------------------*/
 
 
-.header{
-    text-align: center;
-}
-
 .header-icon {
     color:#4e3317;
-    font-family: Abel; font-size: 44px; font-style: normal;  
-    font-weight:bold;
+   font-size: 44px;
+   font-style: normal;  
+  font-weight:bold;
 }
-
 
 
 .header-icon-contact  {
@@ -181,9 +170,10 @@ width:100%;
     padding-bottom:30px;
 }
 
-.index-content {
+.content {
     color:#F8F8F8;
-    font-family: Abel; font-size: 18px; font-style: normal;
+    font-size: 18px;
+    font-style: normal;
     font-weight:bold;
    
 }
@@ -191,13 +181,7 @@ width:100%;
 .top-buffer {padding-top:30px;}
 
 
-
-
-
-
 /*--------------------- Navbar------------------------------------------*/
-
-
 
 
 .navbar {
@@ -215,7 +199,7 @@ width:100%;
 
 
 .navbar-default .navbar-collapse {
-      border-color:transparent;
+     border-color:transparent;
     padding-top: 20px;
     box-shadow:none;
 }
@@ -242,19 +226,14 @@ width:100%;
     padding-top: 15px;
 }
 
-
-
-
 .navbar-default .navbar-nav > li > a {
     color: white;
-    
 }
 
 .navbar-default .navbar-nav a {
     font-weight: bold;
+    font-size: 1.2em;
 }
-
-
 
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:focus,
@@ -262,9 +241,6 @@ width:100%;
     background-color: transparent;
    color:#FFF;
 }
-
-
-
 
 .navbar-default .navbar-nav>li>a:focus,
 .navbar-default .navbar-nav>li>a:hover {
@@ -275,13 +251,8 @@ width:100%;
     text-align: center;
 }
 
-
-
-
-
-
 /* code taken from https://bootstrapious.com/p/bootstrap-navbar#5-2-overflowing-content 
-adjust navbar collapse before logo icon*/
+adjust navbar collapse before logo icon on navbar*/
 
 @media (max-width: 900px) { 
     .navbar-header {
@@ -300,18 +271,7 @@ adjust navbar collapse before logo icon*/
     }
     
 }            
-
-
-
-
 /* End of code for nav collapse */
-
-
-
-
-
-
-
 
 
 /*----------------ABOUT PAGE----------------------- */
@@ -322,26 +282,18 @@ adjust navbar collapse before logo icon*/
 }
 
 
-.about-content {
-color:#F8F8F8;
-font-family: Abel; font-size: 18px; font-style: normal;
-font-weight:bold;
-}
 
-.about-content h2  {
+
+.about-content-header {
     color:#989794;
-    font-family: Abel; font-size: 24px; font-style: normal;  
+     font-size: 24px;
+     font-style: normal;  
     font-weight:bold;
     padding-top: 20px;
 }
 
 
-/* --------------MUSIC----------------------------*/
 
-.music-content-container {
-    padding-top: 10px;
-   
-}
 
 /* --------------GALLERY----------------------------*/
 
@@ -360,7 +312,8 @@ font-weight:bold;
 
 .video-content {
     color:#989794;
-    font-family: Abel; font-size: 30px; font-style: normal;  
+     font-size: 30px;
+     font-style: normal;  
     font-weight:bold;
     
 }
@@ -404,15 +357,10 @@ font-weight:bold;
 
 
 .form-control {
-   width:50%;
     display:inline;
 }
 
-.form-inline
-{
- padding-bottom: 55px;
 
-}
 
 .modal-content
 {
@@ -420,10 +368,6 @@ font-weight:bold;
     color: #F8F8F8;
     
 }
-
-
-
-
 
 /*--------------Footer----------------------------------------------------------------*/
 
@@ -437,11 +381,6 @@ footer {
     width: 100%;
     position: relative;
 }
-
-.footer-music {
-   position: fixed; 
-}
-
 
 
 
@@ -468,7 +407,8 @@ footer {
 
 .social-text {
 color:#F8F8F8;
-font-family: Abel; font-size: 14px; font-style: normal;
+font-size: 14px; 
+font-style: normal;
 font-weight:bold;
 float: left;
 padding-left: 10px;
@@ -494,9 +434,7 @@ padding-top: 10px;
 
 
 
-
 .social-links li  i:hover {
- 
     background-color: #f05f40;
 }
 

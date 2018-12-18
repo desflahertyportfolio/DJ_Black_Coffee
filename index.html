@@ -9,6 +9,7 @@
     <title>Black Coffee DJ</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Abel" type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/underline.css">
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
@@ -78,7 +79,7 @@
 
     <div class="container-fluid container-wrapper-music" id="music">
         <div class="content-container">
-            <section class="header">
+            <section class="text-center">
                 <div class="row">
                     <div class="col-xs-12">
                         <div class="header-icon header-icon-p">
@@ -97,7 +98,7 @@
                     </div>
                 </div>
             </section>
-            <section class="header">
+            <section class="text-center">
                 <div class="row">
                     <div class="col-xs-12">
                         <button class="btn btn-red" onClick="window.open('https://www.amazon.co.uk/Pieces-Me-Black-Coffee/dp/B01K9OGN6G/ref=sr_1_3?ie=UTF8&qid=1544728917&sr=8-3&keywords=dj+black+coffee');">
@@ -113,7 +114,7 @@
 
     <div class="container-fluid container-wrapper-video" id="video">
         <div class="content-container">
-            <section class="header">
+            <section class="text-center">
                 <div class="row">
                     <div class="col-xs-12">
                         <div class="header-icon header-icon-p">
@@ -146,7 +147,7 @@
 
     <div class="container-wrapper-gallery" id="gallery">
         <div class="content-container">
-            <section class="header">
+            <section class="text-center">
                 <div class="row">
                     <div class="header-icon header-icon-p">
                         <h1 class="header-icon header-icon-p text-uppercase"><i class="fa fa-camera-retro"></i>gallery</h1>
@@ -214,14 +215,15 @@
 
     <div class="container-wrapper-blackcoffeetour" id="tour">
         <div class="content-container">
-            <section class="header">
+            <section class="text-center">
                 <div class="row">
-                    <div class="col-xs-12">
+                    
                         <div class="header-icon header-icon-p">
                             <h1 class="header-icon header-icon-p text-uppercase"><i class="fa fa-ticket"></i>tour</h1>
                         </div>
+                </div>        
                         <!-- Tour Dates -->
-                        <div class="index-content text-uppercase">
+                        <div class="content text-uppercase">
                             <!-- Row 1 -->
                             <div class="row">
                                 <div class="col-sm-3">
@@ -297,14 +299,14 @@
 
     <div class="container-wrapper-blackcoffeecontact" id="contact">
         <div class="content-container">
-            <section class="header">
+            <section class="text-center">
                 <div class="row">
                     <div class="col-xs-12">
                         <div class="header-icon header-icon-contact">
                             <h1 class="header-icon header-icon-contact text-uppercase"><i class="fa fa-globe"></i>contact</h1>
                         </div>
                         </div>
-                        <div class="index-content text-uppercase">
+                        <div class="content text-uppercase">
                             <div class="row">
                                 <h3>South Africa &#38; Africa &#58;</h3>
                                 <div class="col-6"></div>
@@ -355,15 +357,16 @@
                                 Sign up to receive the latest news
                             </div>
                             <p class="top-buffer"></p>
-                            <div class="row justify-content-center mb-4 col-sm">
+                            <div class="row justify-content-center md-4 col-sm">
                                 <form class="form-block" onsubmit="fsignup()">
-                                    <div class="form-group mx-sm-3">
-                                        <input type="email" class="form-control form-control-lg" id="signupemail" placeholder="Email" size="50" required>
+                                    <div class="form-group">
+                                        <input type="email" class="form-control form-control-lg" id="signupemail" placeholder="Email" size="25" required>
                                     </div>
                                     <input type="submit" value="Submit" class="btn btn-red btn-sign">
                                 </form>
                             </div>
                             </div>
+                            
             </section>
             </div>
             </div>
@@ -382,9 +385,10 @@
                             <li><a target="_blank" href="https://www.facebook.com/realblackcoffee"><i class="fa fa-facebook"></i></a></li>
                         </ul>
                         <div class="social-text">&copy; 2018 DJ Black Coffee | design by DF</div>
-                </div>
+                        </section>
             </div>
     </div>
+    </footer>
 
     <!-- Modal -->
 
@@ -418,6 +422,7 @@
                         </div>
                     </div>
                 </div>
+            </div>
             </div>
 
             <!--Code for when clicking submit for form found on: https://www.w3schools.com/js/js_popup.asp -->
