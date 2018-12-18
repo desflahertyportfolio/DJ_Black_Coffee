@@ -370,8 +370,8 @@ footer {
 
 
 .social-header {
+    padding-right: 10px;
     padding-top: 20px;
-    
 }
 
 
@@ -386,7 +386,7 @@ footer {
 .social-links {
     float:none;
     padding-left: 10px;
-    padding-right: 10px;
+  padding-right: 10px;
 }
 }
 
