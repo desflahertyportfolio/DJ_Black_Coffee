@@ -23,7 +23,7 @@ As a dance music fan or promoter I would want to:
 * make a booking request through the website to book the DJ,
 * view contact information for his management if I work in the press industry or wish to have a direct contact method.
 
-A Mockup for the website was created using the balsamiq software tool. Mockups for the proposed sections can be found in the project folder on github.
+A Mockup for the website was created using the balsamiq software tool. Mockups for the proposed sections can be found in the project folder on github https://github.com/desflaherty/milestoneproject1/tree/master/Mockup
 
 ## Sections on Website:
 * Index.html - This is the home page for the website that provides links to the different sections in the website located on the navigation bar on the top right of the screen. A logo is used here as a home button. There is also an enquiry button that opens a modal form where a user can input their details for bookings or enquiries.
