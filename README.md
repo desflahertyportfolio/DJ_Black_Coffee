@@ -9,6 +9,9 @@ I chose to build a website for a well known DJ called 'Black Coffee'. He is a So
 The website would be designed for dance music fans or for dance music promoters who would be interested in finding out more about 'Black Coffee' or booking him for an event as well as his existing fan base.They would need to be able to view and buy his material and find out about tour dates and his activity on social media as well as a method to contact him. 
 The site built enables visitors to listen to his latest album as well as providing a link to where they can purchase the album on amazon.co.uk. Visitors can also view a schedule of his upcoming tour dates and link to the respective website to purchase a ticket for these. The site provides links to his social media accounts on Facebook,Instagram and Twitter as well as YouTube videos. Visitors can also sign up to a mailing list and complete a booking request form. Management contact details are also provided.
 
+A number of existing DJ websites were viewed before begining work on this project to get a feel for the possible design style. Websites looked at included http://www.sus81.jp/djkrush/index.html, http://damianlazarus.com, http://www.sergedevant.com 
+Content to be used in the website was gathered from online sources and this lead to the formulation of the colour scheme to be used in the website. The design style used would need to be appealing to the intended audience and stylish and modern. 
+
 *User Stories:*
 As a dance music fan or promoter I would want to: 
 listen to a latest album so that I can then purchase it if I like the music,
@@ -19,7 +22,7 @@ view pictures of the artist to stay updated with his activity,
 make a booking request through the website to book the DJ,
 view contact information for his management if I work in the press industry or wish to have a direct contact method.
 
-A Mockup for the website was created using the balsamiq software tool. Mockups for the proposed sections can be found in the project folder on github https://github.com/desflaherty/project1/tree/master/MockUp
+A Mockup for the website was created using the balsamiq software tool. Mockups for the proposed sections can be found in the project folder on github.
 
 **Features:**
 Index.html - This is the home page for the website that provides links to the different sections in the website located on the navigation bar on the top right of the screen. A logo is used here as a home button. There is also an enquiry button that opens a modal form where a user can input their details for bookings or enquiries.
@@ -100,13 +103,13 @@ The social media links work as expected when the user clicks on each button they
 When tested on iPad there is a small white line appearing under the footer and also between the 'tour' and 'contact' section background images. This only appears when testing on chrome developer but does not show on Internet Explorer using responsinator.
 When the 'enquiry' button is clicked the modal that opens causes the navbar to move to the right of the screen over the scrollbar, but this re-sets when the enquiry form is closed. This does not show on iPhone 5/SE or Galaxy S5 but can be seen on larger devices iPhone 6/7 and iPad.
 
-*Deployment*
+**Deployment**
 The project was continuously pushed to github commiting any changes through the development stages. A new respository was created in github and initiallized in git at the start of the project. The finished project was deployed to github pages through the settings - master branch link - https://desflaherty.github.io/milestoneproject1/. When first deployed the images used in the site were not appearing as absolute paths were being used to the image such as ../folder/image.png - once the ../ path was removed the image was successful on the page.
 
 The repository used for the final project with code & files is located at https://github.com/desflaherty/milestoneproject1
 
-Credits
-Content
+**Credits**
+*Content*
 The text for section Y was copied from the Wikipedia article Z
 Media
 The photos used in this site were obtained from ...
