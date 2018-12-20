@@ -60,7 +60,7 @@ In this section, you should mention all of the languages, frameworks, libraries,
 *Font Awesome* - A font and icon toolkit based on CSS and LESS https://fontawesome.com/
 *Google Fonts* -A library of fontsthat can be used in the website https://fonts.google.com/
 *JQuery* - A JavaScript library used to simplify DOM manipulation. https://jquery.com/
-*Photoshop* -  A Trial version was used to create the Black Coffee Logo used on the site - cropped from a photo sourced online. https://www.photoshop.com
+*Photoshop* -  A Trial version was used to create the Black Coffee Logo used on the site - cropped from a photo sourced online. Alos used fro some editing of background images before using on the site https://www.photoshop.com
 *DownloadGram* - Third party software used to download photos from Instagram for use in the gallery section on the website. https://downloadgram.com/
 
 
@@ -100,6 +100,12 @@ The signup form works as expected. If the user click on submit with no input an 
 The social media links work as expected when the user clicks on each button they are taken to an external webpage of the DJ's social media account page. The hover over effect also works correctly the transparent background animates to a red colour when the user mouses over each button. A media query is used to display the social media buttons to the left of the screen on smaller devices as this is more visually appealing.
 
 *Problems/Bugs:*
+
+There were some issues discovered during the development of the website that were fixed from sourcing code found online and testing the site on different devices through chrome developer.
+Javascript code was used to change the class for the navigation links from 'underline' to 'active' when a user clicks on the button. This sets a red underline under the relevant navigation section which aids the functionality and is visually appealing.
+A scroll spy is used to change the underline on the navigation when the user scrolls the website. However the use of scroll spy caused the navbar collapse view to remain in a dropped down-view and not retract. Javascript was sourced online in github to overcome this issue https://github.com/twbs/bootstrap/issues/12852.
+
+
 When tested on iPad there is a small white line appearing under the footer and also between the 'tour' and 'contact' section background images. This only appears when testing on chrome developer but does not show on Internet Explorer using responsinator.
 When the 'enquiry' button is clicked the modal that opens causes the navbar to move to the right of the screen over the scrollbar, but this re-sets when the enquiry form is closed. This does not show on iPhone 5/SE or Galaxy S5 but can be seen on larger devices iPhone 6/7 and iPad.
 
@@ -109,10 +115,23 @@ The project was continuously pushed to github commiting any changes through the 
 The repository used for the final project with code & files is located at https://github.com/desflaherty/milestoneproject1
 
 **Credits**
+
 *Content*
-The text for section Y was copied from the Wikipedia article Z
-Media
-The photos used in this site were obtained from ...
-Acknowledgements
-I received inspiration for this project from X
+The text for the About section was copied from the Wikipedia article https://en.wikipedia.org/wiki/Black_Coffee_(DJ).
+The text for the Contact section was taken from the FaceBook page https://www.facebook.com/pg/realblackcoffee/about/?ref=page_internal
+
+*Media*
+The photos used in this site were obtained from 
+residentadvisor.net
+etv.co.za
+djmag.com
+shimmybeachclub.com
+youtube.com
+instagram.com
+zgossip.co.zw
+twitter.com
+iol.co.za
+
+
+
 
