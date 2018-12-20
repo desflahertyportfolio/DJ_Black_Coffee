@@ -98,19 +98,12 @@ The social media links work as expected when the user clicks on each button they
 
 *Problems/Bugs:*
 When tested on iPad there is a small white line appearing under the footer and also between the 'tour' and 'contact' section background images. This only appears when testing on chrome developer but does not show on Internet Explorer using responsinator.
-When tested on Galaxy S5 & iPhone not all tour dates are immediately visiable, the user would need to scroll down to view all the dates. Also seen for the 'video' & 'contact' section where vertical scrolling is needed.
 When the 'enquiry' button is clicked the modal that opens causes the navbar to move to the right of the screen over the scrollbar, but this re-sets when the enquiry form is closed. This does not show on iPhone 5/SE or Galaxy S5 but can be seen on larger devices iPhone 6/7 and iPad.
 
-
 *Deployment*
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+The project was continuously pushed to github commiting any changes through the development stages. A new respository was created in github and initiallized in git at the start of the project. The finished project was deployed to github pages through the settings - master branch link - https://desflaherty.github.io/milestoneproject1/. When first deployed the images used in the site were not appearing as absolute paths were being used to the image such as ../folder/image.png - once the ../ path was removed the image was successful on the page.
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
+The repository used for the final project with code & files is located at https://github.com/desflaherty/milestoneproject1
 
 Credits
 Content
