@@ -40,12 +40,18 @@ A Mockup for the website was created using the balsamiq software tool. Mockups f
 * Navigation Bar - allows users to clearly navigate to the different sections in the website. A underline text effect is implemented on mouse over as well as a fixed underline when the user is on a particular section. The underline effect works in conjuction with the scrollbar using bootstraps scrollspy feature. The underline effect is implemented using a separate css file called underline.css contained in the assets folder.
 * Nav bar toggle - drop down links for viewing the website on mobile.
 * An Enquiry button - allows users to completed a form entering their details for a booking or enquiry.
-### Index.html#music - Embedded SoundCloud playlist & link to amazon.co.uk site where the album 'pieces of me' can be purchased.
-### Index.html#video - Embedded videos fom YouTube that can be viewed in the browser window of the DJs live performances.
-### Index.html#gallery - Photos with external links to the respective photos that have been uploaded to by the DJ to his Instagram webpage.
-### Index.html#tour - Buttons that can be clicked on that will bring the user to the respective webpage where they can purchase tickets for the concerts.
-### Index.html#contact - A signup input form where the user can enter their e-mail details.
-Footer/Social Media Links - Links to the DJ's Instagram, Twitter, YouTube and Facebook accounts.
+### Index.html#music
+Embedded SoundCloud playlist & link to amazon.co.uk site where the album 'pieces of me' can be purchased.
+### Index.html#video
+Embedded videos fom YouTube that can be viewed in the browser window of the DJs live performances.
+### Index.html#gallery
+Photos with external links to the respective photos that have been uploaded to by the DJ to his Instagram webpage.
+### Index.html#tour
+Buttons that can be clicked on that will bring the user to the respective webpage where they can purchase tickets for the concerts.
+### Index.html#contact
+A signup input form where the user can enter their e-mail details.
+### Footer/Social Media Links
+Links to the DJ's Instagram, Twitter, YouTube and Facebook accounts.
 
 ## Features Left to Implement:
 Future plans could include more video and music content for future releases, a separate news section for articles and press releases, links to soundcloud and itunes beside the social media links. A more advanced collapsed menu for viewing the website on mobile.
@@ -79,7 +85,7 @@ The nanvigation links work as expected , the hover over generates a red underlin
 
 When viewed in a smaller device such as mobile the navigation menu collapses as expected to become a drop down menu represented by icons in the right of the top right of the screen.
 
-### About.html:
+### About.html
 The text is scrollable and the background image stays in place. Tested on different divices the text is visiable and appears as expected.
 
 ### Index.html#Music
@@ -110,12 +116,12 @@ A scroll spy is used to change the underline on the navigation when the user scr
 When tested on iPad there is a small white line appearing under the footer and also between the 'tour' and 'contact' section background images. This only appears when testing on chrome developer but does not show on Internet Explorer using responsinator.
 When the 'enquiry' button is clicked the modal that opens causes the navbar to move to the right of the screen over the scrollbar, but this re-sets when the enquiry form is closed. This does not show on iPhone 5/SE or Galaxy S5 but can be seen on larger devices iPhone 6/7 and iPad.
 
-## Deployment
+## Deployment:
 The project was continuously pushed to github commiting any changes through the development stages. A new respository was created in github and initiallized in git at the start of the project. The finished project was deployed to github pages through the settings - master branch link - https://desflaherty.github.io/milestoneproject1/. When first deployed the images used in the site were not appearing as absolute paths were being used to the image such as ../folder/image.png - once the ../ path was removed the image was successful on the page.
 
 The repository used for the final project with code & files is located at https://github.com/desflaherty/milestoneproject1
 
-## Credits
+## Credits:
 
 *Content*
 The text for the About section was copied from the Wikipedia article https://en.wikipedia.org/wiki/Black_Coffee_(DJ).
