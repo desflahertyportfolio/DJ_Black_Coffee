@@ -101,10 +101,8 @@ When tested on iPad there is a small white line appearing under the footer and a
 When tested on Galaxy S5 & iPhone not all tour dates are immediately visiable, the user would need to scroll down to view all the dates. Also seen for the 'video' & 'contact' section where vertical scrolling is needed.
 When the 'enquiry' button is clicked the modal that opens causes the navbar to move to the right of the screen over the scrollbar, but this re-sets when the enquiry form is closed. This does not show on iPhone 5/SE or Galaxy S5 but can be seen on larger devices iPhone 6/7 and iPad.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
-
-Deployment
+*Deployment*
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
 In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
