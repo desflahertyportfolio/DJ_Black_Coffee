@@ -1,8 +1,9 @@
-**Project Name: DJ Black Coffee**
+
+# Project Name: DJ Black Coffee
 
 I chose to build a website for a well known DJ called 'Black Coffee'. He is a South African DJ, record producer and singer-songwriter.He has released 5 albums to date and won the "Breakthrough DJ of the Year" award at the DJ Awards in Ibiza in 2015. He has a large following on social media but does not have a dedicated website. The creation of a website would promote his music and also increase his exposure on social media as well as providing a method to contact the artist or his management companies.
 
-**UX**
+## UX
 
 *Strategy:* To create an online presence for the DJ as he currently does not have a dedicated website. There is a presence already on Facebook but this is to generic - a custom site would add value. 
 
@@ -24,7 +25,7 @@ view contact information for his management if I work in the press industry or w
 
 A Mockup for the website was created using the balsamiq software tool. Mockups for the proposed sections can be found in the project folder on github.
 
-**Features:**
+## Features:
 Index.html - This is the home page for the website that provides links to the different sections in the website located on the navigation bar on the top right of the screen. A logo is used here as a home button. There is also an enquiry button that opens a modal form where a user can input their details for bookings or enquiries.
 About.html - A biography section about the DJ and his awards etc.
 Index.html#music - An embedded SoundCloud playlist where the user can listen to a sample of his Album in the browser window or link to SoundCloud as well as a link to Amazon.co.uk where the album can be purchased.
@@ -34,26 +35,26 @@ Index.html#tour -Upcoming tour dates and location as well as links to the websit
 Index.html#contact - Contact information for the DJs management company as well as a sign up form for his newsletter to receive the latest news.
 
 *Existing Features:*
-Index.html:
+* Index.html:
 Black Coffee Logo  - which acts as a link to the home page when the user clicks on it.
 Navigation Bar - allows users to clearly navigate to the different sections in the website. A underline text effect is implemented on mouse over as well as a fixed underline when the user is on a particular section. The underline effect works in conjuction with the scrollbar using bootstraps scrollspy feature. The underline effect is implemented using a separate css file called underline.css contained in the assets folder.
 Nav bar toggle - drop down links for viewing the website on mobile.
 A Enquiry button - allows users to completed a form entering their details for a booking or enquiry.
-Index.html#music - Embedded SoundCloud playlist & link to amazon.co.uk site where the album 'pieces of me' can be purchased.
-Index.html#video - Embedded videos fom YouTube that can be viewed in the browser window of the DJs live performances.
-Index.html#gallery - Photos with external links to the respective photos that have been uploaded to by the DJ to his Instagram webpage.
-Index.html#tour - Buttons that can be clicked on that will bring the user to the respective webpage where they can purchase tickets for the concerts.
-Index.html#contact - A signup input form where the user can enter their e-mail details.
+* Index.html#music - Embedded SoundCloud playlist & link to amazon.co.uk site where the album 'pieces of me' can be purchased.
+* Index.html#video - Embedded videos fom YouTube that can be viewed in the browser window of the DJs live performances.
+* Index.html#gallery - Photos with external links to the respective photos that have been uploaded to by the DJ to his Instagram webpage.
+* Index.html#tour - Buttons that can be clicked on that will bring the user to the respective webpage where they can purchase tickets for the concerts.
+* Index.html#contact - A signup input form where the user can enter their e-mail details.
 Footer/Social Media Links - Links to the DJ's Instagram, Twitter, YouTube and Facebook accounts.
 
 *Features Left to Implement:*
 Future plans could include more video and music content for future releases, a separate news section for articles and press releases, links to soundcloud and itunes beside the social media links. A more advanced collapsed menu for viewing the website on mobile.
 
 
-**Technologies Used:**
+## Technologies Used:
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
-*HTML5* -The webs core markup language used for creating content for the web. HTML5 is the 5th edition of the language.       https://www.w3.org/TR/html52/
+* HTML5 -The webs core markup language used for creating content for the web. HTML5 is the 5th edition of the language.       https://www.w3.org/TR/html52/
 *CSS* - Used in two files style.css and underline.css. Style.css containes the stylesheet used to format the presentation of the website. The underline.css styelsheet controls the mouse over underline effect for the navigation items in the nav bar. https://www.w3.org/standards/webdesign/htmlcss
 *Bootstrap 3.3.7* -An open source toolkit for developing with HTML, CSS and JS https://getbootstrap.com/
 *Javascript* -An object-oriented computer programming language commonly used to create interactive effects within web browsers. https://developer.mozilla.org/bm/docs/Web/JavaScript
@@ -122,15 +123,15 @@ The text for the Contact section was taken from the FaceBook page https://www.fa
 
 *Media*
 The photos used in this site were obtained from 
-residentadvisor.net
-etv.co.za
-djmag.com
-shimmybeachclub.com
-youtube.com
-instagram.com
-zgossip.co.zw
-twitter.com
-iol.co.za
+* Residentadvisor.net
+* Etv.co.za
+* Djmag.com
+* Shimmybeachclub.com
+* YouTube.com
+* Instagram.com
+* Zgossip.co.zw
+* Twitter.com
+* Iol.co.za
 
 
 
