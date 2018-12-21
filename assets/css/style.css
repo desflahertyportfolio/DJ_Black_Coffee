@@ -1,19 +1,17 @@
-
-
-/*--------------Body Text----------------------------------------------------------------*/
+/*--------------------BODY TEXT----------------------------------------------------------------*/
 
 body {
     font-family: 'Abel', sans-serif;
-    position:relative;
+    position: relative;
 }
 
 
-/*--------------Background Image Containers----------------------------------------------------------------*/
+/*--------------BACKGROUND IMAGE CONTAINERS---------------------------------------------------------------*/
 
 .callout-container {
-    height:100VH;
-    width:100%;
-    background-image:linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    height: 100VH;
+    width: 100%;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url('../images/landing_image.jpg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -23,18 +21,18 @@ body {
     align-items: center;
     justify-content: center;
     position: relative;
-   background-position: center;
+    background-position: center;
     background-repeat: no-repeat;
-   
+
 }
 
 
 
 .container-wrapper-blackcoffeetour {
-    width:100%;
-    background-image:linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url('../images/tourpic.jpg')  ;
-     -webkit-background-size: cover;
+    width: 100%;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('../images/tourpic.jpg');
+    -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
@@ -42,16 +40,16 @@ body {
     align-items: center;
     justify-content: center;
     position: relative;
-     background-position: center;
+    background-position: center;
     background-repeat: no-repeat;
-   
+
 }
 
 .container-wrapper-blackcoffeecontact {
-    width:100%;
-     background-image:linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-     url('../images/contact_rorange.png') ;
-     -webkit-background-size: cover;
+    width: 100%;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('../images/contact_rorange.png');
+    -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
@@ -59,13 +57,14 @@ body {
     align-items: center;
     justify-content: center;
     position: relative;
-     background-position: center;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
 .callout-container-about {
-    height: 100%; /* to fill full window with scrollbar */
-    background-image:linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    height: 100%;
+    /* to fill full window with scrollbar */
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url('../images/about.jpg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -81,8 +80,8 @@ body {
 }
 
 .container-wrapper-music {
-    width:100%;
-    background-image:linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    width: 100%;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url('../images/musicbg2.jpg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -96,8 +95,8 @@ body {
 }
 
 .container-wrapper-video {
-    width:100%;
-    background-image:linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    width: 100%;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url('../images/videobg.jpg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -111,8 +110,8 @@ body {
 }
 
 .container-wrapper-gallery {
-    width:100%;
-    background-image:linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    width: 100%;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url('../images/gallery10.jpg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -127,53 +126,65 @@ body {
 
 
 .enquire-container {
-  height: 100%;
-  width: 100%;
-  display: flex;
-  position: relative;
-  align-items: center;
-  justify-content: center;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
 }
 
 
 .content-container {
- padding-top: 100px;
- padding-bottom: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
-/*--------------------- index page content------------------------------------------*/
-
+/*--------------------- INDEX PAGE CONTENT------------------------------------------*/
 
 .header-icon {
-    color:#4e3317;
-   font-size: 44px;
-   font-style: normal;  
-  font-weight:bold;
+    color: #4e3317;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: bold;
 }
 
 
 
-.header-icon-padding  {
-    padding-bottom:30px;
+.header-icon-padding {
+    padding-bottom: 30px;
 }
 
 .content {
-    color:#F8F8F8;
+    color: #F8F8F8;
     font-size: 18px;
     font-style: normal;
-    font-weight:bold;
-   
+    font-weight: bold;
+
 }
 
-.top-buffer {padding-top:30px;}
+.header-content {
+    color: #989794;
+    font-style: normal;
+    font-weight: bold;
+}
 
 
-/*--------------------- Navbar------------------------------------------*/
 
+.tour-top-buffer {
+    padding-top: 30px;
+}
+
+.about-top-buffer {
+    padding-top: 30px;
+}
+
+
+/*--------------------- NAVBAR ------------------------------------------*/
 
 .navbar {
     position: fixed;
-    top:0;
+    top: 0;
     left: 0;
     width: 100%;
     z-index: 1;
@@ -186,18 +197,18 @@ body {
 
 
 .navbar-default .navbar-collapse {
-     border-color:transparent;
+    border-color: transparent;
     padding-top: 20px;
-    box-shadow:none;
+    box-shadow: none;
 }
 
 .navbar-default .navbar-toggle {
-   border-width: .5px .5px .5px .5px;
+    border-width: .5px .5px .5px .5px;
 }
 
 .navbar-default .navbar-toggle:hover {
     background-color: transparent;
-    
+
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -206,14 +217,14 @@ body {
 
 
 .pointer {
-    cursor:pointer;
+    cursor: pointer;
 }
 
 .navbar .navbar-brand {
     padding-top: 15px;
 }
 
-.navbar-default .navbar-nav > li > a {
+.navbar-default .navbar-nav>li>a {
     color: white;
 }
 
@@ -226,12 +237,12 @@ body {
 .navbar-default .navbar-nav>.active>a:focus,
 .navbar-default .navbar-nav>.active>a:hover {
     background-color: transparent;
-   color:#FFF;
+    color: #FFF;
 }
 
 .navbar-default .navbar-nav>li>a:focus,
 .navbar-default .navbar-nav>li>a:hover {
- color: white;
+    color: white;
 }
 
 .navbar-collapse {
@@ -246,11 +257,8 @@ body {
     padding-left: 20px;
 }
 
-.about-content-header {
-    color:#989794;
-     font-size: 24px;
-     font-style: normal;  
-    font-weight:bold;
+.about-content {
+    font-size: 24px;
     padding-top: 20px;
 }
 
@@ -265,36 +273,30 @@ body {
 
 
 /* --------------VIDEO---------------------------*/
+
 .container {
-  background: transparent;
-  margin-bottom: 20px;
-  padding-bottom: 50px;
-  padding-top: 50px;
-  
+    background: transparent;
+    margin-bottom: 20px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+
 }
 
 .video-content {
-    color:#989794;
-     font-size: 30px;
-     font-style: normal;  
-    font-weight:bold;
-    
+    font-size: 30px;
 }
 
 /* --------------MUSIC---------------------------*/
 
 .music-content {
-    color:#989794;
-     font-size: 26px;
-     font-style: normal;  
-    font-weight:bold;
+    font-size: 26px;
 }
 
 
-/* Buttons */
+/* -------------BUTTONS----------------------------------- */
 
 .btn-sign {
-    width:100px;
+    width: 100px;
 }
 
 .btn-cta {
@@ -304,12 +306,12 @@ body {
     text-align: center;
 
 }
-    
+
 .btn-grey {
-    background-color:#8f8f8f;
+    background-color: #8f8f8f;
 }
-   
-  
+
+
 .btn-red {
     color: white;
     background-color: #f05f40;
@@ -327,66 +329,66 @@ body {
 
 
 .form-control {
-    display:inline;
+    display: inline;
 }
 
 
 
-.modal-content
-{
+.modal-content {
     background-color: #98958f;
     color: #F8F8F8;
-    
+
 }
 
-/*--------------Footer----------------------------------------------------------------*/
-
-
+/*-----------------------------FOOTER----------------------------------------------------------------*/
 
 footer {
     background-color: #4e3317;
     min-height: 60px;
-    bottom:0;
+    bottom: 0;
     left: 0;
     width: 100%;
     position: relative;
-   
+
 }
 
- 
+
 .social-header {
     padding-right: 10px;
     padding-top: 20px;
-    
+
 }
 
 
 
 .social-links {
-    float:right;
+    float: right;
 }
 
-/* footer media links */
+/* footer media links - aligns teh footer media buttons to float left on small devices
+as this is more visually appealing*/
 
 @media (max-width: 470px) {
-.social-links {
-    float:none;
-    padding-left: 10px;
-  padding-right: 10px;
+    .social-links {
+        float: none;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
-}
+
+/*end of media code  */
 
 .social-text {
-color:#F8F8F8;
-font-size: 14px; 
-font-style: normal;
-font-weight:bold;
-float: left;
-padding-left: 10px;
-padding-top: 10px;
+    color: #F8F8F8;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: bold;
+    float: left;
+    padding-left: 10px;
+    padding-top: 10px;
 }
 
-.social-links li  i {
+.social-links li i {
     width: 32px;
     height: 32px;
     padding: 12px 0;
@@ -405,8 +407,6 @@ padding-top: 10px;
 
 
 
-.social-links li  i:hover {
+.social-links li i:hover {
     background-color: #f05f40;
 }
-
-

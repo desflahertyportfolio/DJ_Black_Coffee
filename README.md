@@ -76,7 +76,8 @@ In this section, you should mention all of the languages, frameworks, libraries,
 Both index.html & about.html were checked with HTML validator https://validator.w3.org/#validate_by_input to remove as many warnings as possible, all errors were removed. The CSS style sheet was checked using http://csslint.net/ There were no errors but there are some warning messages returned.
 
 Responsinator was used to check responsiveness of different devices - https://www.responsinator.com as well as google chrome developer.
-Devices tested on include: Galaxy S5, iPhone 5/SE, iPhone 6/7/8, iPhone 6/7/8 Plus, iPhone X, iPad, iPad Pro, Desktop PC. Browsers tested were Google Chrome,Internet Explorer and Firefox. Also the Safari browser on iPhone.
+Devices tested on include: Galaxy S5, iPhone 5/SE, iPhone 6/7/8, iPhone 6/7/8 Plus, iPhone X, iPad, iPad Pro, Desktop PC. 
+Browsers tested were Google Chrome,Internet Explorer and Firefox. Also the Safari browser on iPhone.
 
 ### Index.html:
 The 'Enquiry' button was clicked on to ensure it opens and displays a form. When an empty form is submitted an error message is displayed correctly. An invalid email & telephone input displays an error as well as any blank fields not filled in. When the form is correctly populated and submitted a response is correctly displayed.
@@ -116,8 +117,11 @@ A scroll spy is used to change the underline on the navigation when the user scr
 When tested on iPad there is a small white line appearing under the footer and also between the 'tour' and 'contact' section background images. This only appears when testing on chrome developer but does not show on Internet Explorer using responsinator.
 When the 'enquiry' button is clicked the modal that opens causes the navbar to move to the right of the screen over the scrollbar, but this re-sets when the enquiry form is closed. This does not show on iPhone 5/SE or Galaxy S5 but can be seen on larger devices iPhone 6/7 and iPad.
 
+
+
 ## Deployment:
-The project was continuously pushed to github commiting any changes through the development stages. A new respository was created in github and initiallized in git at the start of the project. The finished project was deployed to github pages through the settings - master branch link - https://desflaherty.github.io/milestoneproject1/. When first deployed the images used in the site were not appearing as absolute paths were being used to the image such as ../folder/image.png - once the ../ path was removed the image was successful on the page.
+The project was continuously pushed to github commiting any changes through the development stages. A new respository was created in github and initiallized in git at the start of the project. The finished project was deployed to github pages through the settings - master branch link - https://desflaherty.github.io/milestoneproject1/.
+When first deployed the images used in the site were not appearing as absolute paths were being used to the image such as ../folder/image.png - once the ../ path was removed the image was successful on the page.
 
 The repository used for the final project with code & files is located at https://github.com/desflaherty/milestoneproject1
 
