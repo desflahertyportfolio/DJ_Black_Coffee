@@ -16,7 +16,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 
-<body data-spy="scroll" data-target="#navbar">
+<body data-spy="scroll" data-target="#navbar"> <!-- scroll spy used to change the active underline effect on navbar text links -->
     <!-- Bootstrap 3 Navigation -->
     <nav class="navbar navbar-default">
         <div class="container-fluid">
@@ -37,7 +37,7 @@
 
 
             <!-- Collect the nav links for toggling -->
-
+            <!-- underline class to animate hover-over underline effect on navbar found in underline.css-->
             <div class="navbar-collapse collapse" id="navbar">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="underline"><a href="about.html">ABOUT</a></li>
@@ -49,7 +49,7 @@
                 </ul>
 
                 <!-- https://stackoverflow.com/questions/22518099/bootstrap-menu-change-li-active-class-on-click
-                ***change status of navbar links on click to active***
+                ***change status of navbar links on click to 'active' so that the user will know the relevant section***
                 -->
                 <script>
                     /* global $*/
@@ -58,7 +58,8 @@
                         $(this).addClass("active");
                     });
 
-                    //https://v4-alpha.getbootstrap.com/components/scrollspy/#mdo. Scroll spy used to update links on scroll.
+                    //https://v4-alpha.getbootstrap.com/components/scrollspy/#mdo.
+                    //Scroll spy used to update navbar links on scroll so they will be on the relevant section
 
                     $('body').scrollspy({ target: '#navbar' })
                 </script>
@@ -67,7 +68,7 @@
     </nav>
 
     <div class="container-fluid callout-container">
-        <!-- Enquire button for Modal form -->
+        <!-- Enquire button for Modal form to collect users details-->
         <div class="enquire-container">
             <div>
                 <button class="btn btn-lg btn-cta btn-red" data-toggle='modal' data-target='#enquireModal'>Enquiry</button>
@@ -85,7 +86,7 @@
                         <div class="container">
                             <div class="row">
                                 <div class="col-xs-12">
-                                    <p class="video-content">BlackCoffee &#39;Pieces Of Me&#39;</p>
+                                    <p class="music-content">BlackCoffee &#39;Pieces Of Me&#39;</p>
                                     <div class="embed-responsive embed-responsive-16by9">
                                         <iframe class="embed-responsive-item" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/327630671&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
                                     </div>

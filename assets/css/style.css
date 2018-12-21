@@ -281,7 +281,14 @@ body {
     
 }
 
+/* --------------MUSIC---------------------------*/
 
+.music-content {
+    color:#989794;
+     font-size: 26px;
+     font-style: normal;  
+    font-weight:bold;
+}
 
 
 /* Buttons */
