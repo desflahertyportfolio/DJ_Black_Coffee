@@ -372,8 +372,9 @@ as this is more visually appealing*/
 @media (max-width: 470px) {
     .social-links {
         float: none;
-        padding-left: 10px;
-        padding-right: 10px;
+        
+      margin:0 auto;
+    display:block;
     }
 }
 
